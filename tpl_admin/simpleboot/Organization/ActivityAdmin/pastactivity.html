@@ -1,0 +1,110 @@
+<admintpl file="header" />
+</head>
+<body class="J_scroll_fixed">
+	<div class="wrap">
+		<ul class="nav nav-tabs">
+     		<li class="active"><a href="{:U('ActivityAdmin/pastactivity',array('orgid'=>$orgid))}">往期活动</a></li>
+     		<li ><a href="{:U('ActivityAdmin/uploadpastact',array('orgid'=>$orgid))}">发布往期活动</a></li>
+		</ul>
+		<table class="table table-hover table-bordered">
+			<thead>
+				<tr>
+					<th width="50">ID</th>
+					<th>活动主题</th>
+					<th>参与人数</th>
+					<th>活动时间</th>
+					<th>结束时间</th>
+					<th>活动地点</th>
+					<th>活动图片</th>
+					<th>活动视频</th>
+					<th width="120">管理操作</th>
+				</tr>
+			</thead>
+			<tbody>
+				<foreach name="data" item="vo">
+				<tr>
+					<td>{$vo.id}</td>
+					<td>{$vo.theme}</td>
+					<td>{$vo.people}</td>
+					<td>
+						<if condition="$vo['begin_time'] eq null">
+							无
+						<else />
+							{$vo.begin_time}
+						</if>
+					</td>
+					<td>
+						<if condition="$vo['begin_time'] eq null">
+							无
+						<else />
+							{$vo.over_time}
+						</if>
+					</td>
+					<td>{$vo['addr']}</td>
+					<td>
+
+						<if condition="empty($vo['cover_picture'])">
+	            			无
+						<else />
+						<img width="25" height="25" src="{:sp_get_asset_upload_path($vo['cover_picture'])}" class="headicon"/>
+						</if>
+					</td>
+					<td>
+						<if condition="empty($vo['video'])">
+							无
+						<else />
+							<input type="hidden" id="video" value="{$vo['video']}">
+							<a class="preview" href="#" onclick="fun(this)"title="{$vo['video']}">预览</a>
+						</if>
+					</td>
+					<td>
+						<!--a href='{:U("ActivityAdmin/pastactivityedit",array("id"=>$vo["id"],"orgid"=>$orgid))}'>修改</a|-->  
+						<a class="J_ajax_del" href="{:U('ActivityAdmin/pastactivitydelete',array('id'=>$vo['id'],'orgid'=>$orgid))}">删除</a>
+
+					</td>
+				</tr>
+				</foreach>
+
+			</tbody>
+
+		</table>
+		<div class="pagination">{$page}</div>
+	</div>
+<script src="__ROOT__/statics/js/common.js"></script>
+<script type="text/javascript" src="__ROOT__/statics/js/layer/layer.js"></script>
+<script type="text/javascript">
+
+/*
+$('.preview').on('click', function(){
+var videoid=document.getElementById('video').value;
+layer.open({
+  type: 2,
+  title: false,
+  area: ['630px', '360px'],
+  shade: 0.8,
+  closeBtn: false,
+  shadeClose: true,
+  content: 'http://player.youku.com/embed/'+videoid
+});
+
+});*/
+	function fun (btn) {
+		// body...
+		/*不能用id*/
+		var videoid=$(btn).attr('title');
+		//alert(value);
+		layer.open({
+			  type: 2,
+			  title: false,
+			  area: ['630px', '360px'],
+			  shade: 0.8,
+			  closeBtn: false,
+			  shadeClose: true,
+			  content: 'http://player.youku.com/embed/'+videoid
+			});
+
+	}
+
+	</script>
+</body>
+</html>

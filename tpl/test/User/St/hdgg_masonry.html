@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{$name} {$seo_title} {$site_name}</title>
+	<meta name="keywords" content="{$seo_keywords}" />
+	<meta name="description" content="{$seo_description}">
+    <tc_include file="Public:head" />
+     <link href="__TMPL__Public/css/stcss/index.css" rel="stylesheet">
+    <link href="__TMPL__Public/css/stcss/hdgg.css" rel="stylesheet">
+</head>
+<body>
+<tc_include file="Public:nav" />
+<div class="container">
+    <div class="pg-opt pin">
+        <div class="container">
+            <h2>{$name}</h2>
+        </div>
+    </div>
+    
+    <div class="container">
+    <foreach name="hdgglist" item="v">
+       <div class="span3" >
+                <div class="thumbnail" style="height: 368px;">
+                    <a href="{:U('User/StController/getActNoticeDetail',array('id'=>$v['id']))}" title="Bootstrap 编码规范" target="_blank" onclick="_hmt.push(['_trackEvent', 'tile', 'click', 'codeguide'])">
+                        <img class="lazy" src="http://static.bootcss.com/www/assets/img/opencdn.png" width="320" height="150" data-src="http://static.bootcss.com/www/assets/img/codeguide.png" alt="Headroom.js"></a>
+                    <div class="caption">
+                        <h3>
+                            <a href="{:U('User/StController/getActNoticeDetail',array('id'=>$v['id']))}" title="Bootstrap 编码规范：编写灵活、稳定、高质量的 HTML 和 CSS 代码的规范。" target="_blank" onclick="_hmt.push(['_trackEvent', 'tile', 'click', 'codeguide'])">
+                                最近一次活动展示
+                                <br>
+                                <small>by @mdo</small>
+                            </a>
+                        </h3>
+                        <p>今夏8月29日，下一站，动力火车即将抵达中央车站！</p>
+
+                        <div class="time">
+                            <span class="icon-time"></span>
+                            08-17 18:00
+                            <span class="pull-right">
+                                <span class="icon-favorites" title="收藏人数"></span>
+                                169 <b>|</b>
+                                <span class="icon-user" title="报名人数"></span>
+                                165
+                            </span>
+
+                        </div>
+
+                        <div class="apply">
+                            <a href="/people/9871501487828" target="_blank">
+                                <img class="face" src="http://cdn.huodongxing.com/logo/user/201402/1011/9871501487828/521668375688891.jpg" alt="" title="活动行">
+                                <span class="name" title="活动行">活动行</span>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </foreach>
+    </div>
+    
+    
+    <tc_include file="Public:footer" />
+</div>
+
+    
+<!-- JavaScript -->
+<tc_include file="Public:scripts" />
+ <script src="__TMPL__Public/js/imagesloaded.pkgd.min.js"></script>
+    <script src="__TMPL__Public/js/masonry.pkgd.min.js"></script>
+	<script>
+	var $container=$('#container').masonry({
+		  columnWidth: '.grid-sizer',
+		  itemSelector: '.item'
+		});
+	// layout Masonry again after all images have loaded
+	$container.imagesLoaded( function() {
+	  $container.masonry();
+	});
+	
+	</script>
+</body>
+</html>

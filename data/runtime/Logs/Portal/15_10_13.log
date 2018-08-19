@@ -1,0 +1,16 @@
+[ 2015-10-13T16:41:29+08:00 ] ::1 /thinkcmfx/index.php/Portal/article/hdggDetail/stid/2/id/39
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001332s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003381s ]
+SQL: SHOW COLUMNS FROM `sp_activity_enroll` [ RunTime:0.0182s ]
+SQL: SELECT * FROM `sp_activity_enroll` WHERE `user_id` = 2 AND `activity_id` = 39 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2015-10-13T17:05:14+08:00 ] ::1 /thinkcmfx/index.php/Portal/article/hdggDetail/stid/2/id/39
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000903s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002997s ]
+SQL: SHOW COLUMNS FROM `sp_activity_enroll` [ RunTime:0.1021s ]
+SQL: SELECT * FROM `sp_activity_enroll` WHERE `user_id` = 2 AND `activity_id` = 39 LIMIT 1   [ RunTime:0.0006s ]
+

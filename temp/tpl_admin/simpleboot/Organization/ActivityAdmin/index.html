@@ -1,0 +1,61 @@
+<admintpl file="header" />
+</head>
+<body class="J_scroll_fixed">
+	<div class="wrap J_check_wrap">
+		<ul class="nav nav-tabs">
+     		<li class="active"><a href="{:U('ActivityAdmin/index',array('orgid'=>$orgid))}">当前活动</a></li>
+     		<li><a href="{:U('ActivityAdmin/launchactivity',array('orgid'=>$orgid))}">发布活动</a></li>
+		</ul>
+		<table class="table table-hover table-bordered">
+			<thead>
+				<tr>
+					<th width="50">ID</th>
+					<th>活动主题</th>
+					<th>人数上限</th>
+					<th>报名截止时间</th>
+					<th>活动时间</th>
+					<th>活动地点</th>
+					<th width="120">管理操作</th>
+				</tr>
+			</thead>
+			<tbody>
+				<php>$user_statuses=array("0"=>"停用","1"=>"creator","2"=>"启用");</php>
+				<foreach name="data" item="vo">
+				<tr>
+					<td>{$vo.id}</td>
+					<td>{$vo.theme}</td>
+					<td>{$vo.require}</td>
+					<td>
+						<if condition="$vo['deadline'] eq null">
+							待定
+						<else />
+							{$vo.deadline}
+						</if>
+					</td>
+					<td>
+						<if condition="$vo['begin_time'] eq null">
+							待定
+						<else />
+							{$vo.begin_time}
+						</if>
+					</td>
+					<td>{$vo['addr']}</td>
+					<td>
+						<a href='{:U("ActivityAdmin/edit",array("id"=>$vo["id"],"orgid"=>$orgid))}'>修改</a> | 
+						<a href='{:U("ActivityAdmin/lookactivity",array("id"=>$vo["id"],"orgid"=>$orgid))}'>详细</a> | 
+						<a class="J_ajax_del" href="{:U('ActivityAdmin/delete',array('id'=>$vo['id'],'orgid'=>$orgid))}">删除</a>
+
+					</td>
+				</tr>
+				</foreach>
+
+			</tbody>
+			<tr>
+				<label>对于过期的活动，请您尽快清除，这样可以方便您更快的查看有效的内容。</label>
+			</tr>
+		</table>
+		<div class="pagination">{$page}</div>
+	</div>
+	<script src="__ROOT__/statics/js/common.js"></script>
+</body>
+</html>

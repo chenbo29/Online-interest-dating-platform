@@ -1,0 +1,63 @@
+<admintpl file="header" />
+</head>
+<body class="J_scroll_fixed">
+	<div class="wrap">
+		<ul class="nav nav-tabs">
+			<li class="active"><a href="{:U('OrganizationAdmin/lookapply',array('orgid'=>$orgid))}" >天外来客</a>
+			</li>
+		</ul>
+		<form method="post" class="J_ajaxForm" action="#">
+			<div class="table_list">
+				<table class="table table-hover table-bordered table-layout:fixed; ">
+					<thead>
+						<tr>
+							<th width="45">申请人</th>
+							<th>昵称</th>
+							<th width="40">头像</th>
+							<th>E-mail</th>
+							<th>申请时间</th>
+							<th width="41">所在城市</th>
+							<th>电话</th>
+							<th>性别</th>
+							<th>加入原因</th>
+							<th align='center' width="60">操作</th>
+						</tr>
+					</thead>
+					<tbody>
+						<foreach name="info" item="vo">
+						<tr>
+							<td>{$vo.user_login|default='第三方用户'}</td>
+							<td>{$vo.user_nicename|default='无'}</td>
+							<td><img width="25" height="25" src="{:U('user/public/avatar',array('id'=>$vo['user_id']))}" /></td>
+							<td>{$vo.user_email}</td>
+							<td>{$vo.createtime|date="Y-m-d",###}</td>
+							<td>{$vo.city}</td>
+							<td>{$vo.tel}</td>
+							<td>{$vo.sex}</td>
+							<td>{$vo.whyjoin}</td>
+							<td align='center'>
+								<a href="{:U('OrganizationAdmin/agreeapply',array('id'=>$vo['id'],'orgid'=>$orgid))}" class="J_ajax_dialog_btn" data-msg="您确定要加入此用户吗？">同意</a>|
+								<a href="{:U('OrganizationAdmin/disagree',array('id'=>$vo['id'],'orgid'=>$orgid))}" class="J_ajax_dialog_btn" data-msg="您确定要拒绝申请吗？">拒绝</a>
+							</td>
+						</tr>
+						</foreach>
+					<if condition="$vo['user_login'] eq null">
+						<tr>
+
+							<td width="450">
+								<span style="color:red;">暂无申请加入我们的用户,您可以通过丰富您组织的的资料以吸纳更多同城兴趣好友！
+								</span>
+							</td>
+
+						</tr>
+					</if>
+
+					</tbody>
+				</table>
+				<div class="pagination">{$page}</div>
+			</div>
+		</form>
+	</div>
+	<script src="__ROOT__/statics/js/common.js"></script>
+</body>
+</html>

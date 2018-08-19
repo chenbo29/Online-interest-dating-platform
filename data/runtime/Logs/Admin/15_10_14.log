@@ -1,0 +1,827 @@
+[ 2015-10-14T10:53:21+08:00 ] ::1 /thinkcmfx/index.php/Admin/Rbac/authorize/id/10
+NOTIC: D方法实例化没找到模型类Common\Model\AuthAccessModel
+
+[ 2015-10-14T10:54:28+08:00 ] ::1 /thinkcmfx/index.php/Admin/Rbac/roleedit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003051s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0223s ]
+SQL: UPDATE `sp_role` SET `name`='组织用户管理',`remark`='用户管理，包括普通用户的权限控制以及管理员权限的控制。',`status`='1',`update_time`='1444791268' WHERE `id` = 10 [ RunTime:0.0005s ]
+
+[ 2015-10-14T10:54:53+08:00 ] ::1 /thinkcmfx/index.php/Admin/Rbac/authorize/id/8
+NOTIC: D方法实例化没找到模型类Common\Model\AuthAccessModel
+
+[ 2015-10-14T10:57:51+08:00 ] ::1 /thinkcmfx/index.php/Admin/Rbac/roleadd_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003129s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0131s ]
+SQL: INSERT INTO `sp_role` (`name`,`remark`,`status`,`create_time`) VALUES ('组织管理','包括对组织资料的管理，和控制对外来访客加入组织的控制。','1','1444791471') [ RunTime:0.0007s ]
+
+[ 2015-10-14T10:57:54+08:00 ] ::1 /thinkcmfx/index.php/Admin/Rbac/authorize/id/11
+NOTIC: D方法实例化没找到模型类Common\Model\AuthAccessModel
+
+[ 2015-10-14T10:58:08+08:00 ] ::1 /thinkcmfx/index.php/Admin/Rbac/authorize_post
+NOTIC: D方法实例化没找到模型类Common\Model\AuthAccessModel
+
+[ 2015-10-14T10:59:01+08:00 ] ::1 /thinkcmfx/index.php/Admin/Rbac/roleadd_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003381s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0151s ]
+SQL: INSERT INTO `sp_role` (`name`,`remark`,`status`,`create_time`) VALUES ('组织风采展示','对组织封面滚动图片和宣传视频的控制。','1','1444791541') [ RunTime:0.0005s ]
+
+[ 2015-10-14T10:59:05+08:00 ] ::1 /thinkcmfx/index.php/Admin/Rbac/authorize/id/12
+NOTIC: D方法实例化没找到模型类Common\Model\AuthAccessModel
+
+[ 2015-10-14T10:59:09+08:00 ] ::1 /thinkcmfx/index.php/Admin/Rbac/authorize_post
+NOTIC: D方法实例化没找到模型类Common\Model\AuthAccessModel
+
+[ 2015-10-14T10:59:46+08:00 ] ::1 /thinkcmfx/index.php/Admin/Rbac/roleadd_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001918s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007981s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0233s ]
+SQL: INSERT INTO `sp_role` (`name`,`remark`,`status`,`create_time`) VALUES ('组织公告管理','负责公告的发布控制。','1','1444791586') [ RunTime:0.0007s ]
+
+[ 2015-10-14T10:59:50+08:00 ] ::1 /thinkcmfx/index.php/Admin/Rbac/authorize/id/13
+NOTIC: D方法实例化没找到模型类Common\Model\AuthAccessModel
+
+[ 2015-10-14T11:00:00+08:00 ] ::1 /thinkcmfx/index.php/Admin/Rbac/authorize_post
+NOTIC: D方法实例化没找到模型类Common\Model\AuthAccessModel
+
+[ 2015-10-14T11:01:15+08:00 ] ::1 /thinkcmfx/index.php/Admin/Rbac/roleadd_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002947s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0142s ]
+SQL: INSERT INTO `sp_role` (`name`,`remark`,`status`,`create_time`) VALUES ('主题活动管理','该管理员可以发布新活动，以及整理做过的活动并上传本组织。','1','1444791675') [ RunTime:0.0004s ]
+
+[ 2015-10-14T11:01:18+08:00 ] ::1 /thinkcmfx/index.php/Admin/Rbac/authorize/id/14
+NOTIC: D方法实例化没找到模型类Common\Model\AuthAccessModel
+
+[ 2015-10-14T11:01:22+08:00 ] ::1 /thinkcmfx/index.php/Admin/Rbac/authorize_post
+NOTIC: D方法实例化没找到模型类Common\Model\AuthAccessModel
+
+[ 2015-10-14T11:02:24+08:00 ] ::1 /thinkcmfx/index.php/Admin/Rbac/roleadd_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000804s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003282s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0256s ]
+SQL: INSERT INTO `sp_role` (`name`,`remark`,`status`,`create_time`) VALUES ('资源管理','该管理员负责本组织成员上传的各种资源分享进行管理。','1','1444791744') [ RunTime:0.0004s ]
+
+[ 2015-10-14T11:02:27+08:00 ] ::1 /thinkcmfx/index.php/Admin/Rbac/authorize/id/15
+NOTIC: D方法实例化没找到模型类Common\Model\AuthAccessModel
+
+[ 2015-10-14T11:02:31+08:00 ] ::1 /thinkcmfx/index.php/Admin/Rbac/authorize_post
+NOTIC: D方法实例化没找到模型类Common\Model\AuthAccessModel
+
+[ 2015-10-14T11:03:52+08:00 ] ::1 /thinkcmfx/index.php/Admin/Rbac/roleadd_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002869s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0149s ]
+SQL: INSERT INTO `sp_role` (`name`,`remark`,`status`,`create_time`) VALUES ('留言管理','该管理负责查看和管理外来游客的留言，筛选有价值的信息。','1','1444791832') [ RunTime:0.0004s ]
+
+[ 2015-10-14T11:03:55+08:00 ] ::1 /thinkcmfx/index.php/Admin/Rbac/authorize/id/16
+NOTIC: D方法实例化没找到模型类Common\Model\AuthAccessModel
+
+[ 2015-10-14T11:03:59+08:00 ] ::1 /thinkcmfx/index.php/Admin/Rbac/authorize_post
+NOTIC: D方法实例化没找到模型类Common\Model\AuthAccessModel
+
+[ 2015-10-14T11:07:47+08:00 ] ::1 /thinkcmfx/index.php/Admin/Rbac/roleadd_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001149s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005125s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0299s ]
+SQL: INSERT INTO `sp_role` (`name`,`remark`,`status`,`create_time`) VALUES ('时光轴','该管理员负责整理并添加组织的大事记，记录下重要的事件，这将以时间轴的形式在前台展出。','1','1444792067') [ RunTime:0.0004s ]
+
+[ 2015-10-14T11:07:49+08:00 ] ::1 /thinkcmfx/index.php/Admin/Rbac/authorize/id/17
+NOTIC: D方法实例化没找到模型类Common\Model\AuthAccessModel
+
+[ 2015-10-14T11:07:52+08:00 ] ::1 /thinkcmfx/index.php/Admin/Rbac/authorize_post
+NOTIC: D方法实例化没找到模型类Common\Model\AuthAccessModel
+
+[ 2015-10-14T11:08:04+08:00 ] ::1 /thinkcmfx/index.php/Admin/Rbac/roleedit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002949s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006851s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0769s ]
+SQL: UPDATE `sp_role` SET `name`='组织风采展示管理',`remark`='对组织封面滚动图片和宣传视频的控制。',`status`='1',`update_time`='1444792084' WHERE `id` = 12 [ RunTime:0.0005s ]
+
+[ 2015-10-14T11:08:57+08:00 ] ::1 /thinkcmfx/index.php/Admin/User/add_post/orgid/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003166s ]
+SQL: SHOW COLUMNS FROM `sp_users` [ RunTime:0.0141s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0111s ]
+SQL: SHOW COLUMNS FROM `sp_users` [ RunTime:0.0076s ]
+SQL: SHOW COLUMNS FROM `sp_user_org` [ RunTime:0.0138s ]
+SQL: SELECT Users.id AS userid,Users.user_login AS user_login,Users.avatar AS avatar,Users.user_pass AS user_pass,Users.user_nicename AS user_nicename,Users.user_email AS user_email,Users.tel AS basetel,UserOrg.id AS id,UserOrg.user_id AS user_id,UserOrg.ORG_ID AS ORG_ID,UserOrg.introduction AS introduction,UserOrg.public AS public,UserOrg.picture AS picture,UserOrg.nicename AS nicename,UserOrg.tel AS tel,UserOrg.signature AS signature,UserOrg.identify AS identify,UserOrg.status AS status,UserOrg.createtime AS createtime,UserOrg.last_ip AS last_ip,UserOrg.last_login_time AS last_login_time FROM sp_users Users  JOIN sp_user_org UserOrg ON Users.id=UserOrg.user_id WHERE Users.user_login = 'test' AND UserOrg.ORG_ID = '2' LIMIT 1   [ RunTime:0.0008s ]
+SQL: UPDATE sp_users Users  JOIN sp_user_org UserOrg ON Users.id=UserOrg.user_id SET `identify`='2' WHERE Users.user_login = 'test' AND UserOrg.ORG_ID = '2' [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sp_role_user` [ RunTime:0.0553s ]
+SQL: INSERT INTO `sp_role_user` (`role_id`,`user_id`,`ORG_ID`) VALUES ('17','25','2') [ RunTime:0.0005s ]
+SQL: INSERT INTO `sp_role_user` (`role_id`,`user_id`,`ORG_ID`) VALUES ('16','25','2') [ RunTime:0.0004s ]
+SQL: INSERT INTO `sp_role_user` (`role_id`,`user_id`,`ORG_ID`) VALUES ('15','25','2') [ RunTime:0.0003s ]
+SQL: INSERT INTO `sp_role_user` (`role_id`,`user_id`,`ORG_ID`) VALUES ('14','25','2') [ RunTime:0.0003s ]
+SQL: INSERT INTO `sp_role_user` (`role_id`,`user_id`,`ORG_ID`) VALUES ('13','25','2') [ RunTime:0.0003s ]
+SQL: INSERT INTO `sp_role_user` (`role_id`,`user_id`,`ORG_ID`) VALUES ('12','25','2') [ RunTime:0.0004s ]
+SQL: INSERT INTO `sp_role_user` (`role_id`,`user_id`,`ORG_ID`) VALUES ('11','25','2') [ RunTime:0.0004s ]
+SQL: INSERT INTO `sp_role_user` (`role_id`,`user_id`,`ORG_ID`) VALUES ('10','25','2') [ RunTime:0.0003s ]
+
+[ 2015-10-14T12:54:08+08:00 ] ::1 /thinkcmfx/index.php/Admin/Rbac/authorize/id/11
+NOTIC: D方法实例化没找到模型类Common\Model\AuthAccessModel
+
+[ 2015-10-14T12:54:34+08:00 ] ::1 /thinkcmfx/index.php/Admin/Rbac/authorize_post
+NOTIC: D方法实例化没找到模型类Common\Model\AuthAccessModel
+
+[ 2015-10-14T13:04:52+08:00 ] ::1 /thinkcmfx/index.php/Admin/Rbac/authorize/id/10
+NOTIC: D方法实例化没找到模型类Common\Model\AuthAccessModel
+
+[ 2015-10-14T13:04:57+08:00 ] ::1 /thinkcmfx/index.php/Admin/Rbac/authorize_post
+NOTIC: D方法实例化没找到模型类Common\Model\AuthAccessModel
+
+[ 2015-10-14T13:05:08+08:00 ] ::1 /thinkcmfx/index.php/Admin/Rbac/authorize/id/11
+NOTIC: D方法实例化没找到模型类Common\Model\AuthAccessModel
+
+[ 2015-10-14T13:05:12+08:00 ] ::1 /thinkcmfx/index.php/Admin/Rbac/authorize_post
+NOTIC: D方法实例化没找到模型类Common\Model\AuthAccessModel
+
+[ 2015-10-14T13:05:28+08:00 ] ::1 /thinkcmfx/index.php/Admin/User/edit_post/orgid/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000629s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002600s ]
+SQL: SHOW COLUMNS FROM `sp_users` [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0856s ]
+SQL: SHOW COLUMNS FROM `sp_role_user` [ RunTime:0.0216s ]
+SQL: DELETE FROM `sp_role_user` WHERE `user_id` = 25 AND `ORG_ID` = 2 [ RunTime:0.0007s ]
+SQL: INSERT INTO `sp_role_user` (`role_id`,`user_id`,`ORG_ID`) VALUES ('17','25','2') [ RunTime:0.0004s ]
+SQL: INSERT INTO `sp_role_user` (`role_id`,`user_id`,`ORG_ID`) VALUES ('16','25','2') [ RunTime:0.0004s ]
+SQL: INSERT INTO `sp_role_user` (`role_id`,`user_id`,`ORG_ID`) VALUES ('15','25','2') [ RunTime:0.0004s ]
+SQL: INSERT INTO `sp_role_user` (`role_id`,`user_id`,`ORG_ID`) VALUES ('14','25','2') [ RunTime:0.0004s ]
+SQL: INSERT INTO `sp_role_user` (`role_id`,`user_id`,`ORG_ID`) VALUES ('13','25','2') [ RunTime:0.0004s ]
+SQL: INSERT INTO `sp_role_user` (`role_id`,`user_id`,`ORG_ID`) VALUES ('12','25','2') [ RunTime:0.0004s ]
+SQL: INSERT INTO `sp_role_user` (`role_id`,`user_id`,`ORG_ID`) VALUES ('10','25','2') [ RunTime:0.0004s ]
+
+[ 2015-10-14T13:05:30+08:00 ] ::1 /thinkcmfx/index.php/Admin/User/edit_post/orgid/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002635s ]
+SQL: SHOW COLUMNS FROM `sp_users` [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0107s ]
+SQL: SHOW COLUMNS FROM `sp_role_user` [ RunTime:0.0115s ]
+SQL: DELETE FROM `sp_role_user` WHERE `user_id` = 25 AND `ORG_ID` = 2 [ RunTime:0.0004s ]
+SQL: INSERT INTO `sp_role_user` (`role_id`,`user_id`,`ORG_ID`) VALUES ('17','25','2') [ RunTime:0.0002s ]
+SQL: INSERT INTO `sp_role_user` (`role_id`,`user_id`,`ORG_ID`) VALUES ('16','25','2') [ RunTime:0.0002s ]
+SQL: INSERT INTO `sp_role_user` (`role_id`,`user_id`,`ORG_ID`) VALUES ('15','25','2') [ RunTime:0.0002s ]
+SQL: INSERT INTO `sp_role_user` (`role_id`,`user_id`,`ORG_ID`) VALUES ('14','25','2') [ RunTime:0.0002s ]
+SQL: INSERT INTO `sp_role_user` (`role_id`,`user_id`,`ORG_ID`) VALUES ('13','25','2') [ RunTime:0.0002s ]
+SQL: INSERT INTO `sp_role_user` (`role_id`,`user_id`,`ORG_ID`) VALUES ('12','25','2') [ RunTime:0.0002s ]
+SQL: INSERT INTO `sp_role_user` (`role_id`,`user_id`,`ORG_ID`) VALUES ('11','25','2') [ RunTime:0.0002s ]
+SQL: INSERT INTO `sp_role_user` (`role_id`,`user_id`,`ORG_ID`) VALUES ('10','25','2') [ RunTime:0.0002s ]
+
+[ 2015-10-14T13:05:48+08:00 ] ::1 /thinkcmfx/index.php/Admin/User/edit_post/orgid/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002586s ]
+SQL: SHOW COLUMNS FROM `sp_users` [ RunTime:0.0131s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0105s ]
+SQL: SHOW COLUMNS FROM `sp_role_user` [ RunTime:0.0112s ]
+SQL: DELETE FROM `sp_role_user` WHERE `user_id` = 18 AND `ORG_ID` = 2 [ RunTime:0.0004s ]
+SQL: INSERT INTO `sp_role_user` (`role_id`,`user_id`,`ORG_ID`) VALUES ('11','18','2') [ RunTime:0.0003s ]
+SQL: INSERT INTO `sp_role_user` (`role_id`,`user_id`,`ORG_ID`) VALUES ('9','18','2') [ RunTime:0.0005s ]
+
+[ 2015-10-14T13:05:49+08:00 ] ::1 /thinkcmfx/index.php/Admin/User/edit_post/orgid/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002614s ]
+SQL: SHOW COLUMNS FROM `sp_users` [ RunTime:0.0155s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0104s ]
+SQL: SHOW COLUMNS FROM `sp_role_user` [ RunTime:0.0112s ]
+SQL: DELETE FROM `sp_role_user` WHERE `user_id` = 18 AND `ORG_ID` = 2 [ RunTime:0.0004s ]
+SQL: INSERT INTO `sp_role_user` (`role_id`,`user_id`,`ORG_ID`) VALUES ('11','18','2') [ RunTime:0.0003s ]
+SQL: INSERT INTO `sp_role_user` (`role_id`,`user_id`,`ORG_ID`) VALUES ('9','18','2') [ RunTime:0.0003s ]
+
+[ 2015-10-14T13:09:29+08:00 ] ::1 /thinkcmfx/index.php/Admin/Rbac/authorize/id/11
+NOTIC: D方法实例化没找到模型类Common\Model\AuthAccessModel
+
+[ 2015-10-14T20:45:51+08:00 ] ::1 /thinkcmfx/index.php/Admin/slide/delete/id/70/orgid/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003022s ]
+SQL: SHOW COLUMNS FROM `sp_slide` [ RunTime:0.0129s ]
+SQL: SHOW COLUMNS FROM `sp_slide_cat` [ RunTime:0.0103s ]
+SQL: SELECT `slide_pic` FROM `sp_slide` WHERE ( slide_id=70 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: DELETE FROM `sp_slide` WHERE `slide_id` = 70 [ RunTime:0.0015s ]
+
+[ 2015-10-14T20:47:09+08:00 ] ::1 /thinkcmfx/index.php/Admin/slide/add_post/orgid/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003576s ]
+SQL: SHOW COLUMNS FROM `sp_slide` [ RunTime:0.0136s ]
+SQL: SHOW COLUMNS FROM `sp_slide_cat` [ RunTime:0.0097s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\ThinkCMFX\simplewind\Core\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `sp_slide` (`ORG_ID`,`slide_pic`,`slide_cid`,`slide_name`,`slide_content`) VALUES ('2','stppt/2/561e4ecc7832c.jpg','1','2','') [ RunTime:0.0005s ]
+
+[ 2015-10-14T20:53:12+08:00 ] ::1 /thinkcmfx/index.php/Admin/slide/add_post/orgid/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002583s ]
+SQL: SHOW COLUMNS FROM `sp_slide` [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `sp_slide_cat` [ RunTime:0.0114s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\ThinkCMFX\simplewind\Core\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: x D:\wamp\www\ThinkCMFX\simplewind\Core\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y D:\wamp\www\ThinkCMFX\simplewind\Core\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+SQL: INSERT INTO `sp_slide` (`ORG_ID`,`slide_pic`,`slide_cid`,`slide_name`,`slide_content`) VALUES ('2','stppt/2/561e50381dd9f.png','1','3','') [ RunTime:0.0005s ]
+
+[ 2015-10-14T20:54:52+08:00 ] ::1 /thinkcmfx/index.php/Admin/slide/add_post/orgid/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000810s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003310s ]
+SQL: SHOW COLUMNS FROM `sp_slide` [ RunTime:0.0163s ]
+SQL: SHOW COLUMNS FROM `sp_slide_cat` [ RunTime:0.0105s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\ThinkCMFX\simplewind\Core\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: x D:\wamp\www\ThinkCMFX\simplewind\Core\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y D:\wamp\www\ThinkCMFX\simplewind\Core\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+SQL: INSERT INTO `sp_slide` (`ORG_ID`,`slide_pic`,`slide_cid`,`slide_name`,`slide_content`) VALUES ('2','stppt/2/561e509c2cbe8.jpg','1','4','') [ RunTime:0.0005s ]
+
+[ 2015-10-14T20:55:27+08:00 ] ::1 /thinkcmfx/index.php/Admin/slide/add_post/orgid/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000951s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003220s ]
+SQL: SHOW COLUMNS FROM `sp_slide` [ RunTime:0.0145s ]
+SQL: SHOW COLUMNS FROM `sp_slide_cat` [ RunTime:0.0097s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\ThinkCMFX\simplewind\Core\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `sp_slide` (`ORG_ID`,`slide_pic`,`slide_cid`,`slide_name`,`slide_content`) VALUES ('2','stppt/2/561e50bed8674.jpg','1','5','') [ RunTime:0.0004s ]
+
+[ 2015-10-14T20:56:34+08:00 ] ::1 /thinkcmfx/index.php/Admin/slide/delete/id/77/orgid/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004044s ]
+SQL: SHOW COLUMNS FROM `sp_slide` [ RunTime:0.0138s ]
+SQL: SHOW COLUMNS FROM `sp_slide_cat` [ RunTime:0.0101s ]
+SQL: SELECT `slide_pic` FROM `sp_slide` WHERE ( slide_id=77 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: DELETE FROM `sp_slide` WHERE `slide_id` = 77 [ RunTime:0.0003s ]
+
+[ 2015-10-14T20:57:13+08:00 ] ::1 /thinkcmfx/index.php/Admin/slide/add_post/orgid/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002774s ]
+SQL: SHOW COLUMNS FROM `sp_slide` [ RunTime:0.0731s ]
+SQL: SHOW COLUMNS FROM `sp_slide_cat` [ RunTime:0.0137s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\ThinkCMFX\simplewind\Core\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: x D:\wamp\www\ThinkCMFX\simplewind\Core\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y D:\wamp\www\ThinkCMFX\simplewind\Core\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+SQL: INSERT INTO `sp_slide` (`ORG_ID`,`slide_pic`,`slide_cid`,`slide_name`,`slide_content`) VALUES ('2','stppt/2/561e51290ce8e.jpg','1','5','') [ RunTime:0.0006s ]
+
+[ 2015-10-14T20:59:26+08:00 ] ::1 /thinkcmfx/index.php/Admin/slide/add_post/orgid/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002571s ]
+SQL: SHOW COLUMNS FROM `sp_slide` [ RunTime:0.0128s ]
+SQL: SHOW COLUMNS FROM `sp_slide_cat` [ RunTime:0.0103s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\ThinkCMFX\simplewind\Core\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: x D:\wamp\www\ThinkCMFX\simplewind\Core\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y D:\wamp\www\ThinkCMFX\simplewind\Core\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+SQL: INSERT INTO `sp_slide` (`ORG_ID`,`slide_pic`,`slide_cid`,`slide_name`,`slide_content`) VALUES ('2','stppt/2/561e51aca412f.jpg','1','6','') [ RunTime:0.0005s ]
+
+[ 2015-10-14T21:03:24+08:00 ] ::1 /thinkcmfx/index.php/Admin/slide/add_post/orgid/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000926s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003250s ]
+SQL: SHOW COLUMNS FROM `sp_slide` [ RunTime:0.0126s ]
+SQL: SHOW COLUMNS FROM `sp_slide_cat` [ RunTime:0.0096s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\ThinkCMFX\simplewind\Core\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: x D:\wamp\www\ThinkCMFX\simplewind\Core\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y D:\wamp\www\ThinkCMFX\simplewind\Core\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+SQL: INSERT INTO `sp_slide` (`ORG_ID`,`slide_pic`,`slide_cid`,`slide_name`,`slide_content`) VALUES ('2','stppt/2/561e529b01e63.jpg','1','7','') [ RunTime:0.0004s ]
+
+[ 2015-10-14T21:05:15+08:00 ] ::1 /thinkcmfx/index.php/Admin/slide/delete/id/78/orgid/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000898s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003527s ]
+SQL: SHOW COLUMNS FROM `sp_slide` [ RunTime:0.0123s ]
+SQL: SHOW COLUMNS FROM `sp_slide_cat` [ RunTime:0.0098s ]
+SQL: SELECT `slide_pic` FROM `sp_slide` WHERE ( slide_id=78 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: DELETE FROM `sp_slide` WHERE `slide_id` = 78 [ RunTime:0.0003s ]
+
+[ 2015-10-14T21:05:20+08:00 ] ::1 /thinkcmfx/index.php/Admin/slide/delete/id/75/orgid/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000953s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003356s ]
+SQL: SHOW COLUMNS FROM `sp_slide` [ RunTime:0.0148s ]
+SQL: SHOW COLUMNS FROM `sp_slide_cat` [ RunTime:0.0092s ]
+SQL: SELECT `slide_pic` FROM `sp_slide` WHERE ( slide_id=75 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: DELETE FROM `sp_slide` WHERE `slide_id` = 75 [ RunTime:0.0003s ]
+
+[ 2015-10-14T21:05:33+08:00 ] ::1 /thinkcmfx/index.php/Admin/slide/add_post/orgid/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003070s ]
+SQL: SHOW COLUMNS FROM `sp_slide` [ RunTime:0.0124s ]
+SQL: SHOW COLUMNS FROM `sp_slide_cat` [ RunTime:0.0096s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\ThinkCMFX\simplewind\Core\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: x D:\wamp\www\ThinkCMFX\simplewind\Core\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y D:\wamp\www\ThinkCMFX\simplewind\Core\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+SQL: INSERT INTO `sp_slide` (`ORG_ID`,`slide_pic`,`slide_cid`,`slide_name`,`slide_content`) VALUES ('2','stppt/2/561e531ab57dc.jpg','1','7','') [ RunTime:0.0005s ]
+
+[ 2015-10-14T21:07:06+08:00 ] ::1 /thinkcmfx/index.php/Admin/slide/delete/id/76/orgid/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002950s ]
+SQL: SHOW COLUMNS FROM `sp_slide` [ RunTime:0.0125s ]
+SQL: SHOW COLUMNS FROM `sp_slide_cat` [ RunTime:0.0103s ]
+SQL: SELECT `slide_pic` FROM `sp_slide` WHERE ( slide_id=76 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: DELETE FROM `sp_slide` WHERE `slide_id` = 76 [ RunTime:0.0003s ]
+
+[ 2015-10-14T21:07:24+08:00 ] ::1 /thinkcmfx/index.php/Admin/slide/add_post/orgid/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000721s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003104s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004658s ]
+SQL: SHOW COLUMNS FROM `sp_slide` [ RunTime:0.0157s ]
+SQL: SHOW COLUMNS FROM `sp_slide_cat` [ RunTime:0.0138s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\ThinkCMFX\simplewind\Core\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: x D:\wamp\www\ThinkCMFX\simplewind\Core\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y D:\wamp\www\ThinkCMFX\simplewind\Core\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+SQL: INSERT INTO `sp_slide` (`ORG_ID`,`slide_pic`,`slide_cid`,`slide_name`,`slide_content`) VALUES ('2','stppt/2/561e53895aac9.jpg','1','8','') [ RunTime:0.0006s ]
+
+[ 2015-10-14T21:08:48+08:00 ] ::1 /thinkcmfx/index.php/Admin/slide/delete/orgid/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000864s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003110s ]
+SQL: SHOW COLUMNS FROM `sp_slide` [ RunTime:0.0119s ]
+SQL: SHOW COLUMNS FROM `sp_slide_cat` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `sp_slide` WHERE ( slide_id in (81,80,82,79) )  [ RunTime:0.0004s ]
+SQL: DELETE FROM `sp_slide` WHERE ( slide_id in (81,80,82,79) ) [ RunTime:0.0004s ]
+NOTIC: [2] unlink(data/upload/stppt/2/561e531ab57dc.jpg) [<a href='function.unlink'>function.unlink</a>]: No such file or directory D:\wamp\www\ThinkCMFX\application\Admin\Controller\SlideController.class.php 第 208 行.
+
+[ 2015-10-14T21:09:23+08:00 ] ::1 /thinkcmfx/index.php/Admin/slide/add_post/orgid/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001770s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004428s ]
+SQL: SHOW COLUMNS FROM `sp_slide` [ RunTime:0.0195s ]
+SQL: SHOW COLUMNS FROM `sp_slide_cat` [ RunTime:0.0095s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\ThinkCMFX\simplewind\Core\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: x D:\wamp\www\ThinkCMFX\simplewind\Core\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y D:\wamp\www\ThinkCMFX\simplewind\Core\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+SQL: INSERT INTO `sp_slide` (`ORG_ID`,`slide_pic`,`slide_cid`,`slide_name`,`slide_content`) VALUES ('2','stppt/2/561e5401e02ff.jpg','1','3','') [ RunTime:0.0004s ]
+
+[ 2015-10-14T21:14:25+08:00 ] ::1 /thinkcmfx/index.php/Admin/slide/edit_post/orgid/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002658s ]
+SQL: SHOW COLUMNS FROM `sp_slide` [ RunTime:0.0174s ]
+SQL: SHOW COLUMNS FROM `sp_slide_cat` [ RunTime:0.0111s ]
+SQL: SELECT `slide_pic` FROM `sp_slide` WHERE ( slide_id=83 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\ThinkCMFX\simplewind\Core\Library\Think\Upload.class.php 第 170 行.
+SQL: UPDATE `sp_slide` SET `ORG_ID`='2',`slide_pic`='stppt/2/561e552f7e630.jpg',`slide_cid`='1',`slide_name`='3',`slide_content`='' WHERE `slide_id` = '83' [ RunTime:0.0006s ]
+
+[ 2015-10-14T21:15:37+08:00 ] ::1 /thinkcmfx/index.php/Admin/slide/add_post/orgid/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001297s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004786s ]
+SQL: SHOW COLUMNS FROM `sp_slide` [ RunTime:0.0119s ]
+SQL: SHOW COLUMNS FROM `sp_slide_cat` [ RunTime:0.0099s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\ThinkCMFX\simplewind\Core\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: x D:\wamp\www\ThinkCMFX\simplewind\Core\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y D:\wamp\www\ThinkCMFX\simplewind\Core\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+SQL: INSERT INTO `sp_slide` (`ORG_ID`,`slide_pic`,`slide_cid`,`slide_name`,`slide_content`) VALUES ('2','stppt/2/561e5577bd31e.jpg','1','4','') [ RunTime:0.0005s ]
+
+[ 2015-10-14T21:18:20+08:00 ] ::1 /thinkcmfx/index.php/Admin/Menu/index/menuid/100/orgid/2
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2015-10-14T21:18:25+08:00 ] ::1 /thinkcmfx/index.php/Admin/menu/lists
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2015-10-14T21:19:27+08:00 ] ::1 /thinkcmfx/index.php/Admin/menu/edit/id/54
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2015-10-14T21:20:06+08:00 ] ::1 /thinkcmfx/index.php/Admin/Menu/edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003541s ]
+SQL: SHOW COLUMNS FROM `sp_menu` [ RunTime:0.0137s ]
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+SQL: SHOW COLUMNS FROM `sp_auth_rule` [ RunTime:0.0131s ]
+SQL: SELECT `id` FROM `sp_menu` WHERE `app` = 'Admin' AND `model` = 'Slide' AND `action` = 'index' LIMIT 1   [ RunTime:0.0145s ]
+SQL: UPDATE `sp_menu` SET `parentid`='53',`name`='风采展示管理',`app`='Admin',`model`='Slide',`action`='index',`data`='',`icon`='',`remark`='',`status`='1',`type`='1' WHERE `id` = 54 [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sp_auth_rule` WHERE `id` = 54 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sp_auth_rule` SET `name`='admin/slide/index',`module`='Admin',`type`='admin_url',`title`='风采展示管理' WHERE `id` = 54 [ RunTime:0.0004s ]
+
+[ 2015-10-14T21:20:07+08:00 ] ::1 /thinkcmfx/index.php/Admin/menu/edit/id/54
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2015-10-14T21:20:21+08:00 ] ::1 /thinkcmfx/index.php/Admin/menu/add
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2015-10-14T21:20:22+08:00 ] ::1 /thinkcmfx/index.php/Admin/menu/index
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2015-10-14T21:20:23+08:00 ] ::1 /thinkcmfx/index.php/Admin/menu/lists
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2015-10-14T21:22:37+08:00 ] ::1 /thinkcmfx/index.php/Admin/Menu/index/menuid/100/orgid/2
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2015-10-14T21:23:10+08:00 ] ::1 /thinkcmfx/index.php/Admin/Menu/listorders
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001184s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002519s ]
+SQL: SHOW COLUMNS FROM `sp_menu` [ RunTime:0.0224s ]
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+SQL: SHOW COLUMNS FROM `sp_auth_rule` [ RunTime:0.0129s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 109 [ RunTime:0.0004s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 110 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 111 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 112 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 113 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 114 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 115 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 116 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 117 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 118 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 119 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 120 [ RunTime:0.0007s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 121 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 122 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 123 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 124 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 125 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 126 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 127 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 128 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 129 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 130 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1' WHERE `id` = 131 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 162 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 163 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 164 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 165 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 171 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1' WHERE `id` = 53 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 54 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 55 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 56 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 158 [ RunTime:0.0004s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 159 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 57 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 58 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 59 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 60 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 61 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 62 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 63 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 64 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 65 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 66 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 67 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='2' WHERE `id` = 170 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='4' WHERE `id` = 166 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 168 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 169 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='5' WHERE `id` = 7 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 8 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 9 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 10 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 11 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 12 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 13 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 14 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 15 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 16 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 17 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='6' WHERE `id` = 2 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 3 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='7' WHERE `id` = 172 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='3' WHERE `id` = 132 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 133 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 134 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 135 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 136 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 137 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 138 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 139 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 140 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 141 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 142 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 143 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 144 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 145 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 146 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 147 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 148 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 149 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 160 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 161 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 150 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 151 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 152 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 153 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 154 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='20' WHERE `id` = 85 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 86 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 87 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 88 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 89 [ RunTime:0.0006s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 90 [ RunTime:0.0004s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 91 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 92 [ RunTime:0.0004s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 93 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 94 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 95 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 96 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 97 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 98 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 99 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 100 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 101 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 102 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 103 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 104 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 105 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 106 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 107 [ RunTime:0.0007s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 108 [ RunTime:0.0004s ]
+SQL: UPDATE `sp_menu` SET `listorder`='30' WHERE `id` = 1 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 4 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 5 [ RunTime:0.0004s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 6 [ RunTime:0.0004s ]
+SQL: UPDATE `sp_menu` SET `listorder`='2' WHERE `id` = 18 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 19 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 20 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 21 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 22 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 23 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 24 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='3' WHERE `id` = 25 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 26 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 27 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 28 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 29 [ RunTime:0.0004s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 30 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 31 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='4' WHERE `id` = 32 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 33 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 34 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 35 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1' WHERE `id` = 36 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 37 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 38 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='40' WHERE `id` = 39 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 40 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 41 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 42 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 43 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 44 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 45 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 46 [ RunTime:0.0006s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 47 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 48 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 49 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 50 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 51 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 52 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 155 [ RunTime:0.0005s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 156 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 157 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='2' WHERE `id` = 68 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 69 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 70 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 71 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 72 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 73 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 74 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='3' WHERE `id` = 75 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 76 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 77 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 78 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 79 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 80 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 81 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 82 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='4' WHERE `id` = 83 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 84 [ RunTime:0.0003s ]
+
+[ 2015-10-14T21:23:10+08:00 ] ::1 /thinkcmfx/index.php/Admin/Menu/index/menuid/100/orgid/2
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2015-10-14T21:23:21+08:00 ] ::1 /thinkcmfx/index.php/Admin/Menu/index/menuid/100/orgid/2
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2015-10-14T21:23:49+08:00 ] ::1 /thinkcmfx/index.php/Admin/Menu/listorders
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003436s ]
+SQL: SHOW COLUMNS FROM `sp_menu` [ RunTime:0.0883s ]
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+SQL: SHOW COLUMNS FROM `sp_auth_rule` [ RunTime:0.0135s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 109 [ RunTime:0.0004s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 110 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 111 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 112 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 113 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 114 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 115 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 116 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 117 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 118 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 119 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 120 [ RunTime:0.0004s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 121 [ RunTime:0.0004s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 122 [ RunTime:0.0004s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 123 [ RunTime:0.0004s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 124 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 125 [ RunTime:0.0004s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 126 [ RunTime:0.0004s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 127 [ RunTime:0.0004s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 128 [ RunTime:0.0004s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 129 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 130 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1' WHERE `id` = 131 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 162 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 163 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 164 [ RunTime:0.0004s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 165 [ RunTime:0.0004s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 171 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1' WHERE `id` = 53 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 54 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 55 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 56 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 158 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 159 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 57 [ RunTime:0.0004s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 58 [ RunTime:0.0004s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 59 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 60 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 61 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 62 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 63 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 64 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 65 [ RunTime:0.0007s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 66 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 67 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='2' WHERE `id` = 170 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 132 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 133 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 134 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 135 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 136 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 137 [ RunTime:0.0004s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 138 [ RunTime:0.0004s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 139 [ RunTime:0.0004s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 140 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 141 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 142 [ RunTime:0.0004s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 143 [ RunTime:0.0005s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 144 [ RunTime:0.0005s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 145 [ RunTime:0.0004s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 146 [ RunTime:0.0004s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 147 [ RunTime:0.0005s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 148 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 149 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 160 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 161 [ RunTime:0.0004s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 150 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 151 [ RunTime:0.0004s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 152 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 153 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 154 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='4' WHERE `id` = 166 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 168 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 169 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='5' WHERE `id` = 7 [ RunTime:0.0004s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 8 [ RunTime:0.0004s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 9 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 10 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 11 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 12 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 13 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 14 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 15 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 16 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 17 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='6' WHERE `id` = 2 [ RunTime:0.0004s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 3 [ RunTime:0.0006s ]
+SQL: UPDATE `sp_menu` SET `listorder`='7' WHERE `id` = 172 [ RunTime:0.0005s ]
+SQL: UPDATE `sp_menu` SET `listorder`='20' WHERE `id` = 85 [ RunTime:0.0004s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 86 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 87 [ RunTime:0.0004s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 88 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 89 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 90 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 91 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 92 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 93 [ RunTime:0.0005s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 94 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 95 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 96 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 97 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 98 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 99 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 100 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 101 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 102 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 103 [ RunTime:0.0005s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 104 [ RunTime:0.0005s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 105 [ RunTime:0.0004s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 106 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 107 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 108 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='30' WHERE `id` = 1 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 4 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 5 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 6 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='2' WHERE `id` = 18 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 19 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 20 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 21 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 22 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 23 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 24 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='3' WHERE `id` = 25 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 26 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 27 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 28 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 29 [ RunTime:0.0004s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 30 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 31 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='4' WHERE `id` = 32 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 33 [ RunTime:0.0004s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 34 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 35 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1' WHERE `id` = 36 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 37 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 38 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='40' WHERE `id` = 39 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 40 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 41 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 42 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 43 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 44 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 45 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 46 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 47 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 48 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 49 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 50 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 51 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 52 [ RunTime:0.0004s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 155 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 156 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 157 [ RunTime:0.0004s ]
+SQL: UPDATE `sp_menu` SET `listorder`='2' WHERE `id` = 68 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 69 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 70 [ RunTime:0.0004s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 71 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 72 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 73 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 74 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='3' WHERE `id` = 75 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 76 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 77 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 78 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 79 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 80 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='1000' WHERE `id` = 81 [ RunTime:0.0002s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 82 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='4' WHERE `id` = 83 [ RunTime:0.0003s ]
+SQL: UPDATE `sp_menu` SET `listorder`='0' WHERE `id` = 84 [ RunTime:0.0004s ]
+
+[ 2015-10-14T21:23:49+08:00 ] ::1 /thinkcmfx/index.php/Admin/Menu/index/menuid/100/orgid/2
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+

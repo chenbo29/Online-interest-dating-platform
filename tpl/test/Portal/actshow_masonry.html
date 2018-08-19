@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{$name} {$seo_title} {$site_name}</title>
+	<meta name="keywords" content="{$seo_keywords}" />
+	<meta name="description" content="{$seo_description}">
+    <tc_include file="Public:head" />
+     <link href="__TMPL__Public/css/stcss/actshowlist.css" rel="stylesheet">
+     <link href="__TMPL__Public/css/stcss/index.css" rel="stylesheet">
+    <style>
+    .thumbnail>a>img {
+    display: block;
+    margin: 0;
+}
+.activityshowhead{
+color: #fff;
+font-size: 30px;
+font-style: italic;
+}
+.titleposition{
+margin-top:49%;
+}
+
+    </style>
+</head>
+<body>
+<tc_include file="Public:nav" />
+<div class="container">
+    <div class="pg-opt pin">
+        <div class="container">
+            <h2>往期活动展示</h2>
+        </div>
+    </div>
+    
+    <div class="container">
+    <foreach name="list" item="v">
+       <div class="span3" >
+                <div class="thumbnail" style="height: 400px;">
+                    <div class="cover-pic">
+                        <a href="{:leuu('article/actShowDetail',array('stid'=>$_GET['stid'],'id'=>$v['id']))}" title="{$first['theme']}" target="_blank">
+                            <img style="height:350px;width:270px"class="lazy" src="{:sp_get_asset_upload_path($v['cover_picture'])}"   alt="{$vo['theme']}"></a>
+                    </div>
+                    <div class="caption">
+                        <div class="titleposition">
+                            <a href="{:leuu('article/actShowDetail',array('stid'=>
+                                $_GET['stid'],'id'=>$first['id']))}" title="{$first['theme']}" target="_blank">
+                        <span class="activityshowhead">{$v['theme']|msubstr=0,20,'utf-8',false}</span>
+                            </a>
+                        </div>
+                        </br>
+                        <div style="height:30px">
+                            <p>{$v['content']|msubstr=0,25}</p>
+                        </div>
+                        <div class="time">
+                            <span class="icon-time"></span>
+                            {$v['begin_time']|strtotime|date="Y.m.d",###}~{$v['over_time']|strtotime|date="Y.m.d",###}
+                            <span class="pull-right">
+                                <span class="icon-user" title="参与人数"></span>
+                                {$v['people']}
+                            </span>
+                        </div>
+                        <div class="apply">
+                            <a href="__ROOT__/index.php/Index/index/stid/{$_GET['stid']}" target="_blank">
+                                <img class="face" src="{:sp_get_asset_upload_path($v['logo'])}" alt="logo" style="width:25px;height:25px;">
+                                <span class="name" title="{$v['name']}">{$v['name']}</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+<!--                 <div class="thumbnail" style="height: 368px;">
+                    <a href="{:leuu('article/actShowDetail',array('stid'=>$_GET['stid'],'id'=>$v['id']))}"  target="_blank" onclick="_hmt.push(['_trackEvent', 'tile', 'click', 'codeguide'])">
+                        <img class="lazy" src="http://static.bootcss.com/www/assets/img/opencdn.png" width="320" height="150"></a>
+                    <div class="caption">
+                        <h3>
+                            <a href="{:leuu('article/actShowDetail',array('stid'=>$_GET['stid'],'id'=>$v['id']))}"  target="_blank">
+                                {$v['theme']}
+                            </a>
+                        </h3>
+                        <p>{$v['content']|msubstr=0,25}</p>
+                        <div class="time">
+                            <span class="icon-time"></span>
+                            {$v['begin_time']|strtotime|date='Y-m-d',###}
+                            <span class="pull-right">
+                                <span class="icon-user" title="报名人数"></span>
+                                 {$v['people']}
+                            </span>
+                        </div>
+                        <div class="apply">
+                            <a href="__ROOT__/index.php/Index/index/stid/{$_GET['stid']}" target="_blank">
+                                <img class="face" src="{$v['logo']}" alt="logo" style="width:27px;height:27px;">
+                                <span class="name" title="{$v['name']}">{$v['name']}</span>
+                            </a>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </foreach>
+    </div>
+    <div>{$page}</div>
+    <tc_include file="Public:footer" />
+</div>    
+<!-- JavaScript -->
+<tc_include file="Public:scripts" />
+ <script src="__TMPL__Public/js/imagesloaded.pkgd.min.js"></script>
+    <script src="__TMPL__Public/js/masonry.pkgd.min.js"></script>
+	<script>
+	var $container=$('#container').masonry({
+		  columnWidth: '.grid-sizer',
+		  itemSelector: '.item'
+		});
+	// layout Masonry again after all images have loaded
+	$container.imagesLoaded( function() {
+	  $container.masonry();
+	});
+	</script>
+</body>
+</html>

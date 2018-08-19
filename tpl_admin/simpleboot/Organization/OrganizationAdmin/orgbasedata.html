@@ -1,0 +1,124 @@
+<admintpl file="header" />
+<!-- <script type="text/javascript" src="__ROOT__/statics/js/layer/layer.js"></script> -->
+<style type="text/css">
+span{
+	margin:10px;
+}
+.control-label{
+
+  font-weight: bold;
+  font-size:20px;
+  width: 100px;
+}
+.controls{
+  font-weight: bold;
+  font-size:19px;
+  width:400px;
+  margin-top: 5px;
+}
+.controls font{
+  font-size:15px;
+  font-weight:normal;
+  clear:both;
+}
+.control-group orgdata{
+  margin-bottom:1px;
+}
+.content{
+  margin-left:1px;
+}
+
+textarea{
+  width: 500px;
+  height: 84px;
+}
+</style>
+</head>
+<body class="J_scroll_fixed">
+	<div class="wrap J_check_wrap">
+		<ul class="nav nav-tabs">
+     		<li class="active"><a href="{:U('OrganizationAdmin/orgbasedata',array('orgid'=>$orgid))}">组织资料</a></li>
+        <li ><a href="{:U('OrganizationAdmin/requirement',array('orgid'=>$orgid))}">招募要求</a></li>
+     		<li ><a href="{:U('OrganizationAdmin/logo',array('orgid'=>$orgid))}">更新logo</a></li>
+		</ul>
+    <form action="{:U('OrganizationAdmin/orgbasedata',array('orgid'=>$orgid))}" method="post" class="form-horizontal J_ajaxForms" enctype="multipart/form-data">
+      <div class="tab-pane active">
+            <div class="span3">
+              <h3>组织logo</h3>
+             <if condition="empty($data['logo'])">
+                <img src="__ROOT__/data/upload/orglogo/default.jpg" />
+              <else/>
+               <img src="{:sp_get_asset_upload_path($data['logo'])}"/>
+              </if> 
+              <h3>宣传标语：</h3>
+              <textarea name="slogan" style="width:200px;height:50px;">{$data['slogan']} </textarea>
+
+
+            </div>
+                <input type="hidden" value="{$data['id']}"name="id">
+          <div class="span6"> 
+              <div class="control-group orgdata">
+                <label class="control-label">组织名称:</label>
+                <div class="controls"> {$data['name']} </div>
+              </div>                                        
+              <div class="control-group orgdata">
+                  <label class="control-label" for="">创建时间:</label>
+                  <div class="controls"> {$data['create_time']|date="Y-m-d H:i:s",###} </div>                       
+              </div>
+               <div class="control-group orgdata">
+                  <label class="control-label" >所在地:</label>
+                  <div class="controls">  {$city}</div>                                       
+              </div>
+              <div class="control-group orgdata">
+                  <label class="control-label" >创建人:</label>
+                  <div class="controls">{$creator}</div>                               
+              </div>
+              <div class="control-group orgdata">
+                  <label class="control-label" >当前人数</label>
+                  <div class="controls">{$count}</div>                       
+              </div>
+
+              <div class="control-group orgdata">
+                <div >
+                  <label class="control-label" style="margin-bottom:10px">组织简介:</label>
+                </div>
+                <div class="controls font">
+                  <textarea name="introduction">{$data['introduction']|default='未填写'}</textarea>
+                </div>
+              </div>
+              <div class="control-group orgdata">
+                  <label class="control-label" >审核问题:</label>
+                  <div class="controls font"> 
+                    <textarea name="issue">{$data['issue']|default='未填写'} </textarea></div> 
+              </div> 
+
+              <div class="form-actions" style="background:#fff;">
+                <input class="btn btn-primary btn_submit J_ajax_submit_btn"type="submit"value="更新资料">
+             </div>   
+          </div>
+        
+      </div>
+    </form>
+	</div>
+<script type="text/javascript">
+var editorOption = {
+
+serverUrl: "{:U('Asset/UeditorPastactivity/upload',array('orgid'=>$orgid))}",
+//这里可以选择自己需要的工具按钮名称,此处仅选择如下五个
+toolbars: [['fullscreen',  'undo', 'redo', 
+      '|', 'emotion','bold','spechars', 'forecolor', 'fontfamily', 'fontsize','paragraph', 'formatmatch','indent',
+        'forecolor', 'justifyleft','justifyright','justifycenter', 'justifyjustify', 'autotypeset','charts', 
+      '|','map', 
+      'link','|','time','date','help',
+      
+]],
+initialFrameWidth:600,
+};
+editorcontent = new baidu.editor.ui.Editor(editorOption);
+editorcontent.render( 'content' );
+try{editorcontent.sync();}catch(err){};
+
+
+</script>
+</body>
+</html>

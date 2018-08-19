@@ -1,0 +1,135 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>组织发展历史时间轴</title>
+<script type="text/javascript" src="__TMPL__Public/js/stjs/jquery-1.7.2.js"></script>
+<script type="text/javascript" src="__TMPL__Public/js/stjs/jquery.mousewheel.js"></script>
+<script type="text/javascript" src="__TMPL__Public/js/stjs/jquery.easing.js"></script>
+<script type="text/javascript" src="__TMPL__Public/js/stjs/history.js"></script>
+<tc_include file="Public:head" />
+<link rel="stylesheet" type="text/css" href="__TMPL__Public/css/stcss/history.css">
+<script>
+	$(function  () {
+		var c=new Date().getFullYear().toString();
+		$(".timeblock").attr("thisyear",c);
+		var a=c.split(""),b=["numf","nums","numt","numfo"];
+		for(i=0;4>i;i++)
+		$("."+b[i]+"").stop(!0,!1).animate({backgroundPosition:"0px "+-24*a[i]},{duration:200});
+	})
+</script>
+</head>
+<body>
+	<tc_include file="Public:nav" />
+<div id="arrow" >
+	<ul>
+		<li class="arrowup"></li>
+		<li class="arrowdown"></li>
+	</ul>
+</div>
+
+<div id="history">
+
+	<div class="title">
+		<h2>我们的成长史</h2>
+		<div id="circle">
+			<div class="cmsk"></div>
+			<div class="circlecontent">
+				<div thisyear="" class="timeblock">
+					<span class="numf"></span>
+					<span class="nums"></span>
+					<span class="numt"></span>
+					<span class="numfo"></span>
+					<div class="clear"></div>
+				</div>
+				<div class="timeyear">YEAR</div>
+			</div>
+			<a href="#" class="clock"></a>
+		</div>
+	</div>
+	
+	<div id="content">
+		<ul class="list">
+
+		<foreach name="timelineList" item="vo">
+		
+			<li>
+				<div class="liwrap">
+						<div class="lileft">
+							<div class="date">
+								<span class="year">{$vo['time']|strtotime|date="Y",###}</span>
+								<span class="md">{$vo['time']|strtotime|date="md",###}</span>
+							</div>
+						</div>
+						
+						<div class="point"><b></b></div>
+						
+						<div class="liright">
+							<div class="histt"><a href="#">{$vo['title']|msubstr=0,50,"utf-8"}</a></div>
+							<div class="hisct">{$vo['content']|msubstr=0,100,"utf-8",true}</div>
+						</div>
+					</div>
+				</li>
+		</foreach>
+
+		</ul>
+	</div>
+	
+</div>
+<script>
+	$(function(){
+		$('body').on('touchstart.dropdown', '.dropdown-menu', function (e) { e.stopPropagation(); });
+		
+		$("#main-menu li.dropdown").hover(function(){
+			$(this).addClass("open");
+		},function(){
+			$(this).removeClass("open");
+		});
+		
+		$.post("{:U('user/index/is_login')}",{},function(data){
+			if(data.status==1){
+				if(data.user.avatar){
+					$("#main-menu-user .headicon").attr("src",data.user.avatar.indexOf("http")==0?data.user.avatar:"__UPLOAD__avatar/"+data.user.avatar);
+				}
+				
+				$("#main-menu-user .user-nicename").text(data.user.user_nicename!=""?data.user.user_nicename:data.user.user_login);
+				$("#main-menu-user li.user.login").show();
+				
+			}
+			if(data.status==0){
+				$("#main-menu-user li.user.offline").show();
+			}			
+		});	
+		;(function($){
+			$.fn.totop=function(opt){
+				var scrolling=false;
+				return this.each(function(){
+					var $this=$(this);
+					$(window).scroll(function(){
+						if(!scrolling){
+							var sd=$(window).scrollTop();
+							if(sd>100){
+								$this.fadeIn();
+							}else{
+								$this.fadeOut();
+							}
+						}
+					});
+					
+					$this.click(function(){
+						scrolling=true;
+						$('html, body').animate({
+							scrollTop : 0
+						}, 500,function(){
+							scrolling=false;
+							$this.fadeOut();
+						});
+					});
+				});
+			};
+		})(jQuery); 
+		$("#backtotop").totop();
+	});
+	</script>
+</body>
+</html>

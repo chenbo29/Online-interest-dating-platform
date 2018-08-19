@@ -1,0 +1,339 @@
+[ 2015-10-12T20:11:01+08:00 ] ::1 /thinkcmfx/index.php/api/plugin/execute/_plugin/ChinaCity/_controller/ChinaCity/_action/getProvince
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002382s ]
+SQL: SHOW COLUMNS FROM `sp_plugins` [ RunTime:0.0322s ]
+SQL: SELECT `config` FROM `sp_plugins` WHERE `name` = 'ChinaCity' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `config` FROM `sp_plugins` WHERE `name` = 'ChinaCity' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sp_plugindistrict` [ RunTime:0.0162s ]
+SQL: SELECT * FROM `sp_plugindistrict` WHERE `level` = 1 AND `upid` = 0 ORDER BY id ASC  [ RunTime:0.0132s ]
+
+[ 2015-10-12T20:11:01+08:00 ] ::1 /thinkcmfx/index.php/api/plugin/execute/_plugin/ChinaCity/_controller/ChinaCity/_action/getCity
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001663s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003959s ]
+SQL: SHOW COLUMNS FROM `sp_plugins` [ RunTime:0.0185s ]
+SQL: SELECT `config` FROM `sp_plugins` WHERE `name` = 'ChinaCity' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `config` FROM `sp_plugins` WHERE `name` = 'ChinaCity' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_plugindistrict` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `sp_plugindistrict` WHERE `id` = 2 AND `level` = 2 AND `upid` = 0 ORDER BY id ASC  [ RunTime:0.0003s ]
+
+[ 2015-10-12T20:11:01+08:00 ] ::1 /thinkcmfx/index.php/api/plugin/execute/_plugin/ChinaCity/_controller/ChinaCity/_action/getDistrict
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007653s ]
+SQL: SHOW COLUMNS FROM `sp_plugins` [ RunTime:0.0096s ]
+SQL: SELECT `config` FROM `sp_plugins` WHERE `name` = 'ChinaCity' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `config` FROM `sp_plugins` WHERE `name` = 'ChinaCity' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sp_plugindistrict` [ RunTime:0.0142s ]
+SQL: SELECT * FROM `sp_plugindistrict` WHERE `id` = 3 AND `level` = 3 AND `upid` = 2 ORDER BY id ASC  [ RunTime:0.0003s ]
+
+[ 2015-10-12T20:11:01+08:00 ] ::1 /thinkcmfx/index.php/api/plugin/execute/_plugin/ChinaCity/_controller/ChinaCity/_action/getCommunity
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000984s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002007s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003684s ]
+SQL: SHOW COLUMNS FROM `sp_plugins` [ RunTime:0.0100s ]
+SQL: SELECT `config` FROM `sp_plugins` WHERE `name` = 'ChinaCity' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `config` FROM `sp_plugins` WHERE `name` = 'ChinaCity' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\ThinkCMFX\plugins\ChinaCity\Controller\ChinaCityController.class.php 第 108 行.
+SQL: SHOW COLUMNS FROM `sp_plugindistrict` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `sp_plugindistrict` WHERE `id` = 4 AND `level` = 4 AND `upid` = 3 ORDER BY id ASC  [ RunTime:0.0003s ]
+
+[ 2015-10-12T20:11:07+08:00 ] ::1 /thinkcmfx/index.php/api/plugin/execute/_plugin/ChinaCity/_controller/ChinaCity/_action/getCity
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000794s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002992s ]
+SQL: SHOW COLUMNS FROM `sp_plugins` [ RunTime:0.0154s ]
+SQL: SELECT `config` FROM `sp_plugins` WHERE `name` = 'ChinaCity' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `config` FROM `sp_plugins` WHERE `name` = 'ChinaCity' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_plugindistrict` [ RunTime:0.0138s ]
+SQL: SELECT * FROM `sp_plugindistrict` WHERE `level` = 2 AND `upid` = 2 ORDER BY id ASC  [ RunTime:0.0126s ]
+
+[ 2015-10-12T20:11:08+08:00 ] ::1 /thinkcmfx/index.php/api/plugin/execute/_plugin/ChinaCity/_controller/ChinaCity/_action/getDistrict
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000844s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003935s ]
+SQL: SHOW COLUMNS FROM `sp_plugins` [ RunTime:0.0149s ]
+SQL: SELECT `config` FROM `sp_plugins` WHERE `name` = 'ChinaCity' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `config` FROM `sp_plugins` WHERE `name` = 'ChinaCity' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_plugindistrict` [ RunTime:0.0144s ]
+SQL: SELECT * FROM `sp_plugindistrict` WHERE `level` = 3 AND `upid` = 56 ORDER BY id ASC  [ RunTime:0.0124s ]
+
+[ 2015-10-12T20:11:27+08:00 ] ::1 /thinkcmfx/index.php/api/plugin/execute/_plugin/ChinaCity/_controller/ChinaCity/_action/getProvince
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000898s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003113s ]
+SQL: SHOW COLUMNS FROM `sp_plugins` [ RunTime:0.1791s ]
+SQL: SELECT `config` FROM `sp_plugins` WHERE `name` = 'ChinaCity' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `config` FROM `sp_plugins` WHERE `name` = 'ChinaCity' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sp_plugindistrict` [ RunTime:0.0139s ]
+SQL: SELECT * FROM `sp_plugindistrict` WHERE `level` = 1 AND `upid` = 0 ORDER BY id ASC  [ RunTime:0.0123s ]
+
+[ 2015-10-12T20:11:27+08:00 ] ::1 /thinkcmfx/index.php/api/plugin/execute/_plugin/ChinaCity/_controller/ChinaCity/_action/getCity
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001630s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005259s ]
+SQL: SHOW COLUMNS FROM `sp_plugins` [ RunTime:0.0140s ]
+SQL: SELECT `config` FROM `sp_plugins` WHERE `name` = 'ChinaCity' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `config` FROM `sp_plugins` WHERE `name` = 'ChinaCity' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_plugindistrict` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `sp_plugindistrict` WHERE `id` = 2 AND `level` = 2 AND `upid` = 0 ORDER BY id ASC  [ RunTime:0.0004s ]
+
+[ 2015-10-12T20:11:27+08:00 ] ::1 /thinkcmfx/index.php/api/plugin/execute/_plugin/ChinaCity/_controller/ChinaCity/_action/getDistrict
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000958s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003319s ]
+SQL: SHOW COLUMNS FROM `sp_plugins` [ RunTime:0.0104s ]
+SQL: SELECT `config` FROM `sp_plugins` WHERE `name` = 'ChinaCity' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `config` FROM `sp_plugins` WHERE `name` = 'ChinaCity' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_plugindistrict` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `sp_plugindistrict` WHERE `id` = 3 AND `level` = 3 AND `upid` = 2 ORDER BY id ASC  [ RunTime:0.0005s ]
+
+[ 2015-10-12T20:11:27+08:00 ] ::1 /thinkcmfx/index.php/api/plugin/execute/_plugin/ChinaCity/_controller/ChinaCity/_action/getCommunity
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001239s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007316s ]
+SQL: SHOW COLUMNS FROM `sp_plugins` [ RunTime:0.0097s ]
+SQL: SELECT `config` FROM `sp_plugins` WHERE `name` = 'ChinaCity' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `config` FROM `sp_plugins` WHERE `name` = 'ChinaCity' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\ThinkCMFX\plugins\ChinaCity\Controller\ChinaCityController.class.php 第 108 行.
+SQL: SHOW COLUMNS FROM `sp_plugindistrict` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `sp_plugindistrict` WHERE `id` = 4 AND `level` = 4 AND `upid` = 3 ORDER BY id ASC  [ RunTime:0.0003s ]
+
+[ 2015-10-12T20:11:32+08:00 ] ::1 /thinkcmfx/index.php/api/plugin/execute/_plugin/ChinaCity/_controller/ChinaCity/_action/getCity
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000939s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003504s ]
+SQL: SHOW COLUMNS FROM `sp_plugins` [ RunTime:0.0153s ]
+SQL: SELECT `config` FROM `sp_plugins` WHERE `name` = 'ChinaCity' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `config` FROM `sp_plugins` WHERE `name` = 'ChinaCity' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sp_plugindistrict` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `sp_plugindistrict` WHERE `level` = 2 AND `upid` = 3 ORDER BY id ASC  [ RunTime:0.0124s ]
+
+[ 2015-10-12T20:11:33+08:00 ] ::1 /thinkcmfx/index.php/api/plugin/execute/_plugin/ChinaCity/_controller/ChinaCity/_action/getDistrict
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002839s ]
+SQL: SHOW COLUMNS FROM `sp_plugins` [ RunTime:0.0147s ]
+SQL: SELECT `config` FROM `sp_plugins` WHERE `name` = 'ChinaCity' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `config` FROM `sp_plugins` WHERE `name` = 'ChinaCity' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_plugindistrict` [ RunTime:0.1118s ]
+SQL: SELECT * FROM `sp_plugindistrict` WHERE `level` = 3 AND `upid` = 75 ORDER BY id ASC  [ RunTime:0.0210s ]
+
+[ 2015-10-12T20:11:46+08:00 ] ::1 /thinkcmfx/index.php/api/plugin/execute/_plugin/ChinaCity/_controller/ChinaCity/_action/getProvince
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000958s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003951s ]
+SQL: SHOW COLUMNS FROM `sp_plugins` [ RunTime:0.0732s ]
+SQL: SELECT `config` FROM `sp_plugins` WHERE `name` = 'ChinaCity' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `config` FROM `sp_plugins` WHERE `name` = 'ChinaCity' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sp_plugindistrict` [ RunTime:0.0176s ]
+SQL: SELECT * FROM `sp_plugindistrict` WHERE `level` = 1 AND `upid` = 0 ORDER BY id ASC  [ RunTime:0.0128s ]
+
+[ 2015-10-12T20:11:46+08:00 ] ::1 /thinkcmfx/index.php/api/plugin/execute/_plugin/ChinaCity/_controller/ChinaCity/_action/getCity
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021858s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024481s ]
+SQL: SHOW COLUMNS FROM `sp_plugins` [ RunTime:0.0115s ]
+SQL: SELECT `config` FROM `sp_plugins` WHERE `name` = 'ChinaCity' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `config` FROM `sp_plugins` WHERE `name` = 'ChinaCity' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_plugindistrict` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `sp_plugindistrict` WHERE `id` = 2 AND `level` = 2 AND `upid` = 0 ORDER BY id ASC  [ RunTime:0.0003s ]
+
+[ 2015-10-12T20:11:46+08:00 ] ::1 /thinkcmfx/index.php/api/plugin/execute/_plugin/ChinaCity/_controller/ChinaCity/_action/getDistrict
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005798s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008369s ]
+SQL: SHOW COLUMNS FROM `sp_plugins` [ RunTime:0.0099s ]
+SQL: SELECT `config` FROM `sp_plugins` WHERE `name` = 'ChinaCity' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `config` FROM `sp_plugins` WHERE `name` = 'ChinaCity' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_plugindistrict` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `sp_plugindistrict` WHERE `id` = 3 AND `level` = 3 AND `upid` = 2 ORDER BY id ASC  [ RunTime:0.0003s ]
+
+[ 2015-10-12T20:11:47+08:00 ] ::1 /thinkcmfx/index.php/api/plugin/execute/_plugin/ChinaCity/_controller/ChinaCity/_action/getCommunity
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000924s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005482s ]
+SQL: SHOW COLUMNS FROM `sp_plugins` [ RunTime:0.0093s ]
+SQL: SELECT `config` FROM `sp_plugins` WHERE `name` = 'ChinaCity' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `config` FROM `sp_plugins` WHERE `name` = 'ChinaCity' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\ThinkCMFX\plugins\ChinaCity\Controller\ChinaCityController.class.php 第 108 行.
+SQL: SHOW COLUMNS FROM `sp_plugindistrict` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `sp_plugindistrict` WHERE `id` = 4 AND `level` = 4 AND `upid` = 3 ORDER BY id ASC  [ RunTime:0.0006s ]
+
+[ 2015-10-12T20:11:57+08:00 ] ::1 /thinkcmfx/index.php/api/plugin/execute/_plugin/ChinaCity/_controller/ChinaCity/_action/getCity
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000832s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002886s ]
+SQL: SHOW COLUMNS FROM `sp_plugins` [ RunTime:0.0155s ]
+SQL: SELECT `config` FROM `sp_plugins` WHERE `name` = 'ChinaCity' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `config` FROM `sp_plugins` WHERE `name` = 'ChinaCity' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_plugindistrict` [ RunTime:0.0149s ]
+SQL: SELECT * FROM `sp_plugindistrict` WHERE `level` = 2 AND `upid` = 1 ORDER BY id ASC  [ RunTime:0.0126s ]
+
+[ 2015-10-12T20:11:58+08:00 ] ::1 /thinkcmfx/index.php/api/plugin/execute/_plugin/ChinaCity/_controller/ChinaCity/_action/getDistrict
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000910s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003212s ]
+SQL: SHOW COLUMNS FROM `sp_plugins` [ RunTime:0.0139s ]
+SQL: SELECT `config` FROM `sp_plugins` WHERE `name` = 'ChinaCity' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `config` FROM `sp_plugins` WHERE `name` = 'ChinaCity' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_plugindistrict` [ RunTime:0.0134s ]
+SQL: SELECT * FROM `sp_plugindistrict` WHERE `level` = 3 AND `upid` = 39 ORDER BY id ASC  [ RunTime:0.0125s ]
+
+[ 2015-10-12T20:19:46+08:00 ] ::1 /thinkcmfx/index.php/api/guestbook/addmsg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000888s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003452s ]
+SQL: SHOW COLUMNS FROM `sp_guestbook` [ RunTime:0.0187s ]
+
+[ 2015-10-12T20:19:57+08:00 ] ::1 /thinkcmfx/index.php/api/guestbook/addmsg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000920s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003208s ]
+SQL: SHOW COLUMNS FROM `sp_guestbook` [ RunTime:0.0165s ]
+SQL: INSERT INTO `sp_guestbook` (`ORG_ID`,`msg`,`public`,`createtime`) VALUES ('3','第一条留言','1','2015-10-12 20:19:57') [ RunTime:0.0005s ]
+
+[ 2015-10-12T20:30:04+08:00 ] ::1 /thinkcmfx/index.php/api/guestbook/addmsg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001179s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006132s ]
+SQL: SHOW COLUMNS FROM `sp_guestbook` [ RunTime:0.0350s ]
+SQL: INSERT INTO `sp_guestbook` (`ORG_ID`,`msg`,`public`,`createtime`) VALUES ('3','我是yiqiao,我申请加入了组织，请同意一下谢谢！','1','2015-10-12 20:30:04') [ RunTime:0.0011s ]
+
+[ 2015-10-12T21:35:15+08:00 ] ::1 /thinkcmfx/index.php/api/plugin/execute/_plugin/ChinaCity/_controller/ChinaCity/_action/getProvince
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000947s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003286s ]
+SQL: SHOW COLUMNS FROM `sp_plugins` [ RunTime:0.0347s ]
+SQL: SELECT `config` FROM `sp_plugins` WHERE `name` = 'ChinaCity' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `config` FROM `sp_plugins` WHERE `name` = 'ChinaCity' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sp_plugindistrict` [ RunTime:0.0544s ]
+SQL: SELECT * FROM `sp_plugindistrict` WHERE `level` = 1 AND `upid` = 0 ORDER BY id ASC  [ RunTime:0.0132s ]
+
+[ 2015-10-12T21:35:15+08:00 ] ::1 /thinkcmfx/index.php/api/plugin/execute/_plugin/ChinaCity/_controller/ChinaCity/_action/getCity
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001044s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003832s ]
+SQL: SHOW COLUMNS FROM `sp_plugins` [ RunTime:0.0142s ]
+SQL: SELECT `config` FROM `sp_plugins` WHERE `name` = 'ChinaCity' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `config` FROM `sp_plugins` WHERE `name` = 'ChinaCity' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sp_plugindistrict` [ RunTime:0.0208s ]
+SQL: SELECT * FROM `sp_plugindistrict` WHERE `id` = 2 AND `level` = 2 AND `upid` = 0 ORDER BY id ASC  [ RunTime:0.0004s ]
+
+[ 2015-10-12T21:35:15+08:00 ] ::1 /thinkcmfx/index.php/api/plugin/execute/_plugin/ChinaCity/_controller/ChinaCity/_action/getDistrict
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001013s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003468s ]
+SQL: SHOW COLUMNS FROM `sp_plugins` [ RunTime:0.0134s ]
+SQL: SELECT `config` FROM `sp_plugins` WHERE `name` = 'ChinaCity' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `config` FROM `sp_plugins` WHERE `name` = 'ChinaCity' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_plugindistrict` [ RunTime:0.0129s ]
+SQL: SELECT * FROM `sp_plugindistrict` WHERE `id` = 3 AND `level` = 3 AND `upid` = 2 ORDER BY id ASC  [ RunTime:0.0003s ]
+
+[ 2015-10-12T21:35:15+08:00 ] ::1 /thinkcmfx/index.php/api/plugin/execute/_plugin/ChinaCity/_controller/ChinaCity/_action/getCommunity
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000923s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003128s ]
+SQL: SHOW COLUMNS FROM `sp_plugins` [ RunTime:0.0149s ]
+SQL: SELECT `config` FROM `sp_plugins` WHERE `name` = 'ChinaCity' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `config` FROM `sp_plugins` WHERE `name` = 'ChinaCity' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\ThinkCMFX\plugins\ChinaCity\Controller\ChinaCityController.class.php 第 108 行.
+SQL: SHOW COLUMNS FROM `sp_plugindistrict` [ RunTime:0.0262s ]
+SQL: SELECT * FROM `sp_plugindistrict` WHERE `id` = 4 AND `level` = 4 AND `upid` = 3 ORDER BY id ASC  [ RunTime:0.0004s ]
+
+[ 2015-10-12T21:35:20+08:00 ] ::1 /thinkcmfx/index.php/api/plugin/execute/_plugin/ChinaCity/_controller/ChinaCity/_action/getCity
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001029s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003129s ]
+SQL: SHOW COLUMNS FROM `sp_plugins` [ RunTime:0.0272s ]
+SQL: SELECT `config` FROM `sp_plugins` WHERE `name` = 'ChinaCity' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `config` FROM `sp_plugins` WHERE `name` = 'ChinaCity' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_plugindistrict` [ RunTime:0.0178s ]
+SQL: SELECT * FROM `sp_plugindistrict` WHERE `level` = 2 AND `upid` = 18 ORDER BY id ASC  [ RunTime:0.0129s ]
+
+[ 2015-10-12T21:35:21+08:00 ] ::1 /thinkcmfx/index.php/api/plugin/execute/_plugin/ChinaCity/_controller/ChinaCity/_action/getDistrict
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000957s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002949s ]
+SQL: SHOW COLUMNS FROM `sp_plugins` [ RunTime:0.0151s ]
+SQL: SELECT `config` FROM `sp_plugins` WHERE `name` = 'ChinaCity' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `config` FROM `sp_plugins` WHERE `name` = 'ChinaCity' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_plugindistrict` [ RunTime:0.0132s ]
+SQL: SELECT * FROM `sp_plugindistrict` WHERE `level` = 3 AND `upid` = 287 ORDER BY id ASC  [ RunTime:0.0121s ]
+
+[ 2015-10-12T21:45:55+08:00 ] ::1 /thinkcmfx/index.php/api/plugin/execute/_plugin/ChinaCity/_controller/ChinaCity/_action/getProvince
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001083s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003568s ]
+SQL: SHOW COLUMNS FROM `sp_plugins` [ RunTime:0.1245s ]
+SQL: SELECT `config` FROM `sp_plugins` WHERE `name` = 'ChinaCity' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `config` FROM `sp_plugins` WHERE `name` = 'ChinaCity' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sp_plugindistrict` [ RunTime:0.1126s ]
+SQL: SELECT * FROM `sp_plugindistrict` WHERE `level` = 1 AND `upid` = 0 ORDER BY id ASC  [ RunTime:0.0130s ]
+
+[ 2015-10-12T21:45:55+08:00 ] ::1 /thinkcmfx/index.php/api/plugin/execute/_plugin/ChinaCity/_controller/ChinaCity/_action/getCity
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003588s ]
+SQL: SHOW COLUMNS FROM `sp_plugins` [ RunTime:0.0152s ]
+SQL: SELECT `config` FROM `sp_plugins` WHERE `name` = 'ChinaCity' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `config` FROM `sp_plugins` WHERE `name` = 'ChinaCity' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_plugindistrict` [ RunTime:0.0155s ]
+SQL: SELECT * FROM `sp_plugindistrict` WHERE `id` = 2 AND `level` = 2 AND `upid` = 0 ORDER BY id ASC  [ RunTime:0.0003s ]
+
+[ 2015-10-12T21:45:55+08:00 ] ::1 /thinkcmfx/index.php/api/plugin/execute/_plugin/ChinaCity/_controller/ChinaCity/_action/getCommunity
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001753s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012217s ]
+SQL: SHOW COLUMNS FROM `sp_plugins` [ RunTime:0.0108s ]
+SQL: SELECT `config` FROM `sp_plugins` WHERE `name` = 'ChinaCity' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `config` FROM `sp_plugins` WHERE `name` = 'ChinaCity' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\ThinkCMFX\plugins\ChinaCity\Controller\ChinaCityController.class.php 第 108 行.
+SQL: SHOW COLUMNS FROM `sp_plugindistrict` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `sp_plugindistrict` WHERE `id` = 4 AND `level` = 4 AND `upid` = 3 ORDER BY id ASC  [ RunTime:0.0004s ]
+
+[ 2015-10-12T21:45:55+08:00 ] ::1 /thinkcmfx/index.php/api/plugin/execute/_plugin/ChinaCity/_controller/ChinaCity/_action/getDistrict
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.069111s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.070543s ]
+SQL: SHOW COLUMNS FROM `sp_plugins` [ RunTime:0.0139s ]
+SQL: SELECT `config` FROM `sp_plugins` WHERE `name` = 'ChinaCity' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `config` FROM `sp_plugins` WHERE `name` = 'ChinaCity' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sp_plugindistrict` [ RunTime:0.0153s ]
+SQL: SELECT * FROM `sp_plugindistrict` WHERE `id` = 3 AND `level` = 3 AND `upid` = 2 ORDER BY id ASC  [ RunTime:0.0004s ]
+
+[ 2015-10-12T21:46:07+08:00 ] ::1 /thinkcmfx/index.php/api/oauth/login/type/qq
+ERR: 请配置您申请的APP_KEY和APP_SECRET
+

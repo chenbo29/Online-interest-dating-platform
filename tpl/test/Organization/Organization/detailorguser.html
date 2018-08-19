@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>{$site_name}</title>
+<meta name="keywords" content="{$site_seo_keywords}" />
+<meta name="description" content="{$site_seo_description}">
+<tc_include file="Public:head" />
+<link rel="stylesheet" type="text/css" href="__ROOT__/statics/3DGallery/css/style.css" />
+<script type="text/javascript" src="__ROOT__/statics/js/jquery.js"></script>
+<script type="text/javascript" src="__ROOT__/statics/3DGallery/js/modernizr.custom.53451.js"></script>
+<style>
+.control-label{
+
+	font-weight: bold;
+	font-size:15px;
+	float: left;
+	width: 160px;
+}
+.controls{
+	font-weight: bold;
+	font-size:11px;
+	width:500px;
+}
+.control-group{
+	margin:10px;
+}
+.content{
+	margin-left:10px;
+}
+.span3{
+	margin-top:30px;
+}
+.myPic
+{
+  width: 250px;
+  height: 250px;
+}
+</style>
+</head>
+<body class="body-white" id="top">
+ <tc_include file="Public:nav" />
+
+    <div class="tab-pane active" style="margin-top:30px"id="one">
+       		<div class="span2"style="margin-left:300px">
+             <if condition="empty($avatar)">
+                <img src="__TMPL__/Public/images/headicon_128.png"/>
+              <else/>
+               <img src="{:sp_get_user_avatar_url($avatar)}"/>
+              </if> 
+          </div>
+                <input type="hidden" value="{$data['id']}">							
+          <div class="span6"> 
+              <div class="control-group">
+                <label class="control-label" for="">用户名:</label>
+                <div class="controls">
+                  {$data['user_login']}
+                </div>
+              </div>                               			
+         			<div class="control-group">
+         				<label class="control-label" for="">昵称:</label>
+         				<div class="controls">
+         					{$data['nicename']|default='未填写'}
+         				</div>
+         			</div>
+
+         			<div class="control-group">
+         				<label class="control-label" >性别:</label>
+         				<div class="controls">
+         					{$data['sex']|default='未填写'}
+         				</div>
+         			</div>
+
+         			<div class="control-group">
+         				<label class="control-label" >生日:</label>
+         				<div class="controls">
+         					{$data['birthday']|default='未填写'}
+         				</div>
+         			</div>
+
+         			<div class="control-group">
+         				<label class="control-label" >个性签名:</label>
+         				<div class="controls">
+         					{$data['signature']|default='未填写'} 人
+         				</div>
+         			</div>
+
+         			<div class="control-group">
+         				<label class="control-label" >简介:</label>
+         				<div class="controls">
+         					{$data['introduction']|default='未填写'}
+         				</div>
+         			</div>
+
+<!--                 <div class="control-group">
+                <div class="controls">
+                  <a href="{:U('ActivityAdmin/currentactivity',array('orgid'=>$orgid))}" type="button" class="btn">返回</a><label>{$orgid}{$data['picture']}</label>
+                </div>
+              </div> -->
+          </div>
+
+   	</div>
+
+    <div style="margin-top:300px;">
+      <h1 class="text-center">风采展示</h1>
+        <section id="dg-container" class="dg-container">
+        <div class="dg-wrapper">
+          <?php 
+            foreach ($picture as $value) {
+           ?>
+            
+            <a href="#"><img src="__ROOT__/data/upload/orguser/{$orgid}/{$value}" >
+            </a>            
+          <?php } ?>
+        </div>
+        <nav> 
+          <span class="dg-prev">&lt;</span>
+          <span class="dg-next">&gt;</span>
+        </nav>
+      </section>
+    </div>
+	<!-- /container -->
+
+<script type="text/javascript" src="__ROOT__/statics/3DGallery/js/jquery.gallery.js"></script>
+<script type="text/javascript">
+  $(function() {
+    $('#dg-container').gallery();
+  });
+</script/>
+</body>
+</html>

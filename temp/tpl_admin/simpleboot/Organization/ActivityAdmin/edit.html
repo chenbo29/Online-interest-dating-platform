@@ -1,0 +1,170 @@
+<admintpl file="header"/>
+<style type="text/css">
+.col-auto { overflow: auto; _zoom: 1;_float: left;}
+.col-right { float: right; width: 210px; overflow: hidden; margin-left: 6px; }
+.table th, .table td {vertical-align: middle;}
+.btn{position: relative;overflow: hidden;margin-right: 4px;display:inline-block; 
+*display:inline;padding:4px 10px 4px;font-size:14px;line-height:18px; 
+*line-height:20px;color:#fff; 
+text-align:center;vertical-align:middle;cursor:pointer;background:#5bb75b; 
+border:1px solid #cccccc;border-color:#e6e6e6 #e6e6e6 #bfbfbf; 
+border-bottom-color:#b3b3b3;-webkit-border-radius:4px; 
+-moz-border-radius:4px;border-radius:4px;} 
+.btn input{position: absolute;top: 0; right: 0;margin: 0;border:solid transparent; 
+opacity: 0;filter:alpha(opacity=0); cursor: pointer;} 
+.progress{position:relative; margin-left:100px; margin-top:-24px;  
+width:200px;padding: 1px; border-radius:3px; display:none} 
+.bar {background-color: green; display:block; width:0%; height:20px;  
+border-radius:3px; } 
+.percent{position:absolute; height:20px; display:inline-block;  
+top:3px; left:2%; color:#fff } 
+.files{height:22px; line-height:22px; margin:10px 0} 
+.delimg{margin-left:20px; color:#090; cursor:pointer} 
+
+</style>
+<link href="__ROOT__/statics/js/datejs/bootstrap-datetimepicker.min.css" rel="stylesheet" media="screen">
+</head>
+<body class="J_scroll_fixed">
+<div class="wrap J_check_wrap">
+  <ul class="nav nav-tabs">
+     <li><a href="{:U('ActivityAdmin/index',array('orgid'=>$orgid))}">当前活动</a></li>
+     <li><a href="{:U('ActivityAdmin/launchactivity',array('orgid'=>$orgid))}">发布活动</a></li>
+  </ul>
+  <form name="myform" id="myform" action="{:U('ActivityAdmin/postedit',array('orgid'=>$orgid))}" method="post" class="form-horizontal J_ajaxForms" enctype="multipart/form-data">
+  <div class="col-right">
+    <div class="table_full">
+      <table class="table table-bordered">
+         <tr>
+          <td><b>宣传图片预览</b></td>
+        </tr>
+        <tr>
+          <td>
+        	<input type="hidden" name="ORG_ID" value="{$orgid}"/>
+        	<input type="hidden" name="launcher" value="{$data['launcher']}"/>
+			<input type="hidden" name="id" value="{$data['id']}"/>
+			<input type="hidden" name="picture" value="{$data['picture']}"/>
+            <div id="imgPreview" style="width:200px">
+	             <if condition="empty($data['picture'])">
+	            <img src="{:sp_get_asset_upload_path("launchactivity/default.jpg")}" class="headicon"/>
+	            <else/>
+	            <img src="{:sp_get_asset_upload_path($data['picture'])}" class=""/>
+	            </if>
+			</div>	
+			</td>
+        </tr>
+        
+      </table>
+    </div>
+  </div>
+  <div class="col-auto">
+    <div class="table_full">
+      <table class="table table-bordered">
+            <tr>
+              <th width="130">活动主题</th>
+              <td>
+              	<input name="theme" type="text" value="{$data['theme']}">
+
+              </td>
+            </tr>
+            <tr>
+              <th >上传活动宣传海报：</th>
+              <td>
+
+			<div class="btn"> 
+     			<span>添加图片</span> 		
+   				<input id="fileupload" type="file" name="picload" onchange='PreviewImage(this)'>
+
+			</div>
+				<label style="float:right;margin-right:200px;margin-top:5px;font-size:15px">
+					为了达到最佳显示效果，您的图片尺寸比例应该为5:7
+				</label> 
+            </td>
+            </tr>
+            <tr>
+              <th width="80">参加人数上限:</th>
+              <td>
+              	<input type="number" style="width:80px;" name="require" value="{$data['require']}" />
+              	<span class="must_red">人  *</span>
+              </td>
+            </tr>
+            <tr>
+              <th width="80">报名截止时间：</th>
+              <td><input type="text"name="deadline" value="{$data['deadline']}" id="deadline" data-date-format="yyyy-mm-dd hh:ii"></td>
+            </tr>
+
+            <tr>
+              <th width="80">活动时间：</th>
+              <td>
+				<input type="text" name="begin_time"value="{$data['begin_time']}" id="begin_time" data-date-format="yyyy-mm-dd hh:ii">
+              </td>
+            </tr>
+        	<!---->
+        	<tr>
+              <th width="80">活动地点：</th>
+              <td>
+              	<input type='text' name='addr'value="{$data['addr']}" style='width:400px' class='input  input_hd J_title_color'>
+              </td>
+            </tr>
+             <tr>
+              <th width="80">活动内容简介:</th>
+              <td>             	
+              	<textarea name='content' id='description' style='width:98%;height:150px;'>{$data['content']}</textarea>
+              </td>
+            </tr>
+            
+                        
+        </tbody>
+      </table>
+    </div>
+  </div>
+  	<div class="form-actions" style="margin-top:0px">
+           <input class="btn btn-primary btn_submit J_ajax_submit_btn"type="submit"value="发布">
+      		<a class="btn" href="{:U('ActivityAdmin/index',array('orgid'=>$orgid))}">返回</a>
+    </div>
+ </form>
+</div>
+<script type="text/javascript" src="__ROOT__/statics/js/common.js"></script>
+<script type="text/javascript" src="__ROOT__/statics/js/content_addtop.js"></script>
+<script type="text/javascript" src="__ROOT__/statics/js/datejs/bootstrap-datetimepicker.js"></script>
+
+<script type="text/javascript"> 
+//bootstrap里的时间插件
+$('#deadline').datetimepicker();
+$('#begin_time').datetimepicker();
+function PreviewImage(imgFile)
+{
+     var filextension=imgFile.value.substring(imgFile.value.lastIndexOf("."),imgFile.value.length);
+     filextension=filextension.toLowerCase();
+     if ((filextension!='.jpg')&&(filextension!='.gif')&&(filextension!='.jpeg')&&(filextension!='.png')&&(filextension!='.bmp'))
+     {
+         alert("对不起，系统仅支持标准格式的照片，请您调整格式后重新上传，谢谢 !");
+         imgFile.focus();
+     }
+     else
+     {
+         var path;
+         if(document.all)//IE
+         {
+             imgFile.select();
+             path = document.selection.createRange().text;
+             document.getElementById("imgPreview").innerHTML="";
+             document.getElementById("imgPreview").style.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true',sizingMethod='scale',src=\"" + path + "\")";//使用滤镜效果 
+            //  alert(path);     
+         }
+         else//FF
+         {
+         	 document.getElementById("imgPreview").innerHTML="";
+             path=window.URL.createObjectURL(imgFile.files[0]);// FF 7.0以上
+             //path = imgFile.files[0].getAsDataURL();// FF 3.0
+             //document.getElementById("slide_pic").value=path;
+             document.getElementById("imgPreview").innerHTML = "<img id='img1'  src='"+path+"'/>";
+            	// alert(path); 
+             //document.getElementById("img1").src = path;
+         }
+     }
+}
+
+</script>
+
+</body>
+</html>

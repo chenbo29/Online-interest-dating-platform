@@ -1,0 +1,18 @@
+[ 2015-10-13T16:40:04+08:00 ] ::1 /thinkcmfx/index.php/Asset/UeditorPastactivity/upload/orgid/3?action=uploadimage&encode=utf-8
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001272s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004812s ]
+NOTIC: [2] mkdir() [<a href='function.mkdir'>function.mkdir</a>]: No such file or directory D:\wamp\www\ThinkCMFX\application\Asset\Controller\UeditorPastactivityController.class.php 第 455 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\ThinkCMFX\simplewind\Core\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\ThinkCMFX\application\Asset\Controller\UeditorPastactivityController.class.php 第 497 行.
+
+[ 2015-10-13T16:40:04+08:00 ] ::1 /thinkcmfx/index.php/Asset/UeditorPastactivity/upload/orgid/3?action=uploadimage&encode=utf-8
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001112s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004431s ]
+NOTIC: [2] mkdir() [<a href='function.mkdir'>function.mkdir</a>]: No such file or directory D:\wamp\www\ThinkCMFX\application\Asset\Controller\UeditorPastactivityController.class.php 第 455 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\ThinkCMFX\simplewind\Core\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\ThinkCMFX\application\Asset\Controller\UeditorPastactivityController.class.php 第 497 行.
+

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{$post_title} {$site_name}</title>
+	<meta name="keywords" content="{$post_keywords}" />
+	<meta name="description" content="{$post_excerpt}">
+	<tc_include file="Public:head" />
+	<link rel="stylesheet" type="text/css" href="__TMPL__Public/css/stcss/hdggdetail.css"></head>
+	<script type="text/javascript">
+//全局变量
+var GV = {
+    DIMAUB: "__ROOT__/",
+    JS_ROOT: "statics/js/",
+    TOKEN: ""
+};
+</script>
+<style>
+.control-label{
+
+	font-weight: bold;
+	font-size:25px;
+	float: left;
+	
+}
+.controls{
+	font-weight: bold;
+	font-size:23px;
+	width:500px;
+}
+.control-group{
+	margin:30px;
+}
+.content{
+	margin-left:16px;
+}
+.span3{
+	margin-top:30px;
+}
+</style>
+<body>
+	<tc_include file="Public:nav" />
+	<div class="container tc-main">
+		<div class="row">
+				<div class="tc-box first-box article-box">
+					<div id="article_content">
+						<!-- 内容开始 -->
+						<div class="content">
+							<div class="tabs">
+								<ul class="nav nav-pills" style="border-bottom:solid #428bca;">
+									<li class="active">
+										<a href="{:U('Portal/List/hdggList',array('stid'=>$_GET['stid']))}" style="margin-bottom:0px;">活动公告</a>
+									</li>
+								</ul>
+								<div class="tab-content">
+									<div class="tab-pane active" id="one">
+										<div class="span5">
+											<!-- <img alt="" src="‪‪‪‪{:U('user/public/avatar',array('id'=>$vo['id']))}"> -->
+											<img src="{:sp_get_asset_upload_path($picture)}" style="width:500px;height:700px;" />
+										</div>
+										<input type="hidden" value="{$data['id']}">
+										<div class="span3">
+											<div class="control-group">
+												<label class="control-label"> <i class="icon-bookmark"></i>
+													活动主题:
+												</label>
+												<div class="controls">{$theme|default='未填写'}</div>
+											</div>
+
+											<div class="control-group">
+												<label class="control-label" > <i class="icon-time"></i>
+													活动时间:
+												</label>
+												<div class="controls">{$begin_time|default='未填写'}</div>
+											</div>
+
+											<div class="control-group">
+												<label class="control-label" >
+													<i class="fa fa-location-arrow"></i>
+													活动地点:
+												</label>
+												<div class="controls">{$addr|default='未填写'}</div>
+											</div>
+
+											<div class="control-group">
+												<label class="control-label" >
+													<i class="fa fa-users"></i>
+													参加人数上限:
+												</label>
+												<div class="controls">{$require|default='未填写'} 人</div>
+											</div>
+
+											<div class="control-group">
+												<label class="control-label" >
+													<i class="icon-minus-sign"></i>
+													报名截止时间:
+												</label>
+												<div class="controls">{$deadline|default='未填写'}</div>
+											</div>
+
+										<div class="control-group">
+											<div class="controls">
+											<form class="J_ajaxForm" action="{:leuu('article/hdggDetail',array('stid'=>$_GET['stid'],'id'=>$_GET['id']))}" method="post">
+												<button class="btn btn-success J_ajax_submit_btn">我要报名</button>
+											</form>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="control-group joined">
+								<ul class="list-unstyled tc-photos margin-bottom-30">
+									<foreach name="joinedList" item="vo">
+									<li>
+										<a href="/ThinkCMFX/index.php/user/index/index/id/{$vo['user_id']}">
+										<img alt="{$vo['nicename']}" src="{:sp_get_user_avatar_url($vo['avatar'])}" data-bd-imgshare-binded="1"></a>
+									</li>
+									</foreach>
+
+								</ul>
+
+							</div>
+
+							<div class="control-group">
+								<div>
+								<ul class="nav nav-pills" style="border-bottom:solid #428bca;">
+									<li class="active">
+										<a href="{:leuu('')}" style="margin-bottom:0px;">活动内容</a>
+									</li>
+								</ul>
+								</div>
+								<div class=""style="font-size:15px;font-weight:normal;clear:both">{$content|default='未填写'}</div>
+							</div>
+					</div>
+				</div>
+				<!-- 内容结束 -->
+			</div>
+			{:Comments("launch_activity",$id)}
+		</div>
+	</div>
+	<tc_include file="Public:footer"/>
+
+</div>
+
+	<script type="text/javascript">
+//全局变量
+var GV = {
+    DIMAUB: "__ROOT__/",
+    JS_ROOT: "statics/js/",
+    TOKEN: ""
+};
+</script>
+
+<script src="__ROOT__/statics/js/jquery.js"></script>
+<script src="__ROOT__/statics/js/wind.js"></script>
+<script src="__TMPL__Public/simpleboot/bootstrap/js/bootstrap.min.js"></script>
+<script src="__TMPL__Public/js/stjs/enroll.js"></script>
+
+<script>
+	$(function(){
+		$('body').on('touchstart.dropdown', '.dropdown-menu', function (e) { e.stopPropagation(); });
+		
+		$("#main-menu li.dropdown").hover(function(){
+			$(this).addClass("open");
+		},function(){
+			$(this).removeClass("open");
+		});
+		
+		$.post("{:U('user/index/is_login')}",{},function(data){
+			if(data.status==1){
+				if(data.user.avatar){
+					$("#main-menu-user .headicon").attr("src",data.user.avatar.indexOf("http")==0?data.user.avatar:"__UPLOAD__avatar/"+data.user.avatar);
+				}
+				
+				$("#main-menu-user .user-nicename").text(data.user.user_nicename!=""?data.user.user_nicename:data.user.user_login);
+				$("#main-menu-user li.user.login").show();
+				
+			}
+			if(data.status==0){
+				$("#main-menu-user li.user.offline").show();
+			}
+			
+		});	
+		;(function($){
+			$.fn.totop=function(opt){
+				var scrolling=false;
+				return this.each(function(){
+					var $this=$(this);
+					$(window).scroll(function(){
+						if(!scrolling){
+							var sd=$(window).scrollTop();
+							if(sd>100){
+								$this.fadeIn();
+							}else{
+								$this.fadeOut();
+							}
+						}
+					});
+					
+					$this.click(function(){
+						scrolling=true;
+						$('html, body').animate({
+							scrollTop : 0
+						}, 500,function(){
+							scrolling=false;
+							$this.fadeOut();
+						});
+					});
+				});
+			};
+		})(jQuery); 
+		
+		$("#backtotop").totop();
+		
+		
+	});
+	</script>
+
+	
+</body>
+</html>

@@ -1,0 +1,57 @@
+<admintpl file="header" />
+<script type="text/javascript" src="__ROOT__/statics/js/layer/layer.js"></script>
+</head>
+<body class="J_scroll_fixed">
+	<div class="wrap J_check_wrap">
+		<ul class="nav nav-tabs">
+     		<li class="active"><a href="{:U('OrganizationAdmin/notice',array('orgid'=>$orgid))}">所有公告</a></li>
+     		<li ><a href="{:U('OrganizationAdmin/launchnotice',array('orgid'=>$orgid))}">发布公告</a></li>
+		</ul>
+
+		<table class="table table-hover table-bordered" style="">
+			<thead>
+				<tr >
+					<th width="50">ID</th>
+					<th>标题</th>
+					<th>发布时间</th>
+					<th width="">公告内容</th>
+					<th>点击量</th>
+					<th width="60">游客可见</th>
+					<th width="120">管理操作</th>
+				</tr>
+			</thead>
+			<tbody>
+				<php>$permission=array("0"=>"不可见","1"=>"可见");</php>
+				<foreach name="data" item="vo">
+				<tr>
+					<td>{$vo.id}</td>
+					<td>{$vo.title}</td>
+					<td>{$vo.time}</td>
+					<td >
+					<a href='{:U("OrganizationAdmin/looknotice",array("id"=>$vo["id"],"orgid"=>$orgid))}' title="">详细</a>
+					</td>
+					<td>{$vo['hits']}</td>
+					<td>
+						{$perimission[$vo['permission']]}
+					</td>
+
+					<td>
+						<a href='{:U("OrganizationAdmin/editnotice",array("id"=>$vo["id"],"orgid"=>$orgid))}'>修改</a> | 
+						<a href='{:U("OrganizationAdmin/looknotice",array("id"=>$vo["id"],"orgid"=>$orgid))}'>详细</a> | 
+						<a class="J_ajax_del" href="{:U('OrganizationAdmin/deletenotice',array('id'=>$vo['id'],'orgid'=>$orgid))}">删除</a>
+
+					</td>
+				</tr>
+				</foreach>
+
+			</tbody>
+			<tr>
+				<label>对于过期的公告，请您尽快清除，这样可以方便您更快的查看有效的内容。</label>
+			</tr>
+		</table>
+		<div class="pagination">{$page}</div>
+	</div>
+<script src="__ROOT__/statics/js/common.js"></script>
+
+</body>
+</html>

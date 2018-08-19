@@ -1,0 +1,114 @@
+<admintpl file="header"/>
+
+<style>
+.control-label{
+
+	font-weight: bold;
+	font-size:20px;
+	float: left;
+	width: 160px;
+}
+.controls{
+	font-weight: bold;
+	font-size:19px;
+	width:500px;
+}
+.control-group{
+	margin:30px;
+}
+.content{
+	margin-left:16px;
+}
+.span3{
+	margin-top:30px;
+}
+</style>
+</head>
+<body class="body-white" id="top">
+<div class="wrap J_check_wrap">
+  <ul class="nav nav-tabs">
+     <li><a href="{:U('ActivityAdmin/index',array('orgid'=>$orgid))}">当前活动</a></li>
+     <li><a href="{:U('ActivityAdmin/launchactivity',array('orgid'=>$orgid))}">发布活动</a></li>
+  </ul>
+		<div class="content">
+            <div class="row">
+                <div class="">
+                    <div class="tabs">
+                       	<ul class="nav nav-tabs">
+                           <li class="active"><a href="#one" data-toggle="tab">{$data['theme']|default='我们的活动'}--{$new_activity}</a>
+                           </li>
+                       	</ul>
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="one">
+	                       		<div class="span5">
+	                       		  <a href="{:U('profile/avatar')}">
+	                       			<if condition="empty($data['picture'])">
+						            <img src="{:sp_get_asset_upload_path("launchactivity/default.jpg")}" class="headicon"/>
+						            <else/>
+						            <img src="{:sp_get_asset_upload_path($data['picture'])}" class=""/>
+						            </if>
+						          </a>
+								</div>
+								<input type="hidden" value="{$data['id']}">							
+								<div class="span3">                                			
+                           			<div class="control-group">
+                           				<label class="control-label" for="">活动主题:</label>
+                           				<div class="controls">
+                           					{$data['theme']|default='未填写'}
+                           				</div>
+                           			</div>
+
+                           			<div class="control-group">
+                           				<label class="control-label" >活动时间:</label>
+                           				<div class="controls">
+                           					{$data['begin_time']|default='未填写'}
+                           				</div>
+                           			</div>
+
+                           			<div class="control-group">
+                           				<label class="control-label" >活动地点:</label>
+                           				<div class="controls">
+                           					{$data['addr']|default='未填写'}
+                           				</div>
+                           			</div>
+
+                           			<div class="control-group">
+                           				<label class="control-label" >参加人数上限:</label>
+                           				<div class="controls">
+                           					{$data['require']|default='未填写'} 人
+                           				</div>
+                           			</div>
+
+                           			<div class="control-group">
+                           				<label class="control-label" >报名截止时间:</label>
+                           				<div class="controls">
+                           					{$data['deadline']|default='未填写'}
+                           				</div>
+                           			</div>
+
+                           			<div class="control-group">
+                           				<div >
+                           					<label class="control-label" style="margin-bottom:10px">活动内容简介:
+                           					</label>
+          								</div>
+                           				<div class="controls"style="font-size:15px;font-weight:normal;clear:both">
+                           					{$data['content']|default='未填写'}
+                           				</div>
+                           			</div>
+
+                           			<div class="control-group">
+                           				<div class="controls">
+                           					<a href="{:U('ActivityAdmin/index',array('orgid'=>$orgid,))}" type="button" class="btn">返回</a>
+                           				</div>
+                           			</div>
+                           		</div>
+                            </div>
+                        </div>							
+                    </div>
+                </div>
+            </div>
+		</div>
+	<!-- /container -->
+</div>
+</body>
+</html>

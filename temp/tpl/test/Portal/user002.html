@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>{$name} {$seo_title} {$site_name}</title>
+<meta name="keywords" content="{$seo_keywords}" />
+<meta name="description" content="{$seo_description}">
+<tc_include file="Public:head" />
+<link href="__TMPL__Portal/css/bootstrap.min.css" rel="stylesheet">
+
+<!--[if lt IE 9]>
+    <script src="__TMPL__Portal/js/html5shiv.js"></script>
+    <script src="__TMPL__Portal/js/respond.min.js"></script>
+    <![endif]-->
+
+<style type="text/css">
+html {
+	background-color: #CCC
+}
+body {
+	width: 80.9%;
+	background-color: #FFF;
+	margin: 0 auto
+}
+.wrap {
+	margin-top: 10px;
+	border: 2px solid #0CC;
+}
+/*.col-md-8{border-left:2px solid #600;}*/
+.col-md-4 {
+	border-left: 2px solid #0CC;
+}
+.main-img {
+	margin: 0 auto;
+}
+.main-list {
+	margin-top: 20px
+}
+.row-fluid {
+	margin-top: 10px
+}
+.main {
+	margin-top: 20px;
+	border-top: 3px solid #0CC;
+}
+.main li a {
+	background-color: #F60;
+	color: #fff;
+}
+.col-md-3 {
+	width: 24%
+}
+.modal-dialog {
+	margin: 0 auto;
+}
+/*li{line-height:100%}*/
+/*.fixed {
+	position: fixed;
+	top: 100px;
+	left: 600px;
+}*/
+#about-modal {
+	margin: 0 auto;
+	width: 100%;
+	height: 100%
+}
+.modal-dialog {
+	margin: 0 auto;
+	width: 100%;
+}
+.modal-content {
+	margin: 0 auto;
+	width: 61.8%;
+	height: 100%;
+	border-left: 2px solid #999
+}
+.user-photo {
+	float: left;
+	margin-right: 20px;
+}
+</style>
+</head>
+
+<body>
+<!-- 顶部导航 -->
+<tc_include file="Public:nav" />
+<!--活动展示主体开始-->
+
+<div class="container-fluid">
+   <div class="row-fluid">
+      <div class="col-md-12">
+         <ul class="thumbnails">
+            <li class="col-md-2">
+                <div class="thumbnail">
+                    <img alt="300x200" src="__TMPL__Portal/images/002.jpg" />
+                    <div class="caption">
+                        <p> 
+					     小妮 <a  class="btn btn-primary pull-right" role="button"  data-toggle="modal" data-target="#about-modal">关于</a> 
+                        </p>
+				    </div>
+			    </div>
+			</li>
+                
+			<li class="col-md-2">
+				<div class="thumbnail">
+					<img alt="300x200" src="__TMPL__Portal/images/005.jpg" />
+					<div class="caption">													
+						<p>
+						小红 <a  class="btn btn-primary pull-right" role="button"  data-toggle="modal" data-target="#about-modal">人物简介</a> 
+						</p>
+					</div>
+				</div>
+			</li>
+            <li class="col-md-2">
+				<div class="thumbnail">
+					<img alt="300x200" src="__TMPL__Portal/images/001.jpg" />
+					<div class="caption">
+						<p>
+						小红<a class="btn btn-primary pull-right" href="#">人物简介</a> 
+						</p>
+					</div>
+				</div>
+			</li>
+            <li class="col-md-2">
+				<div class="thumbnail">
+					<img alt="300x200" src="__TMPL__Portal/images/002.jpg" />
+					<div class="caption">
+						<p>
+						小红<a class="btn btn-primary pull-right" href="#">人物简介</a> 
+						</p>
+					</div>
+				</div>
+			</li>
+			<li class="col-md-2">
+				<div class="thumbnail">
+					<img alt="300x200" src="__TMPL__Portal/images/006.jpg" />
+					<div class="caption">			
+						<p>
+						小明<a class="btn btn-primary pull-right" href="#">人物简介</a> 
+						</p>
+					</div>
+				</div>
+			</li>
+		</ul>
+	</div>
+</div>
+
+
+ <!--弹出人物简介开始--> 
+<!-- 关于 -->
+<div class="row-fluid">
+    <div class="col-md-12">
+        <div class="modal fade fixed" id="about-modal" tabindex="-1" role="dialog" aria-labelledby="modal-label"aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">
+						    <span aria-hidden="true">&times;</span>
+						    <span class="sr-only">关闭</span>
+						</button>
+                        <h4 class="modal-title glyphicon glyphicon-user " id="modal-label">&nbsp;人物简介</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="user-photo" >
+						    <img class="img-rounded" alt="140x140" src="__TMPL__Portal/images/006.jpg" />
+                        </div>
+                        <div class="user-list">
+			                <ul class="unstyled ">
+                                <li>
+                                    <div class=" text-primary glyphicon glyphicon-star">&nbsp;活动类型：&nbsp;<small>志愿活动</small></div>
+                                </li>
+                                <li>&nbsp</li>
+                                <li>
+                                    <div class=" text-primary glyphicon glyphicon-time">&nbsp;活动时间：&nbsp;<small>2015-9-10 12:12</small></div>
+                                </li>
+                                <li>&nbsp</li>
+                                <li>
+                                    <div class=" text-primary glyphicon glyphicon-map-marker">&nbsp;活动地点：<small>哈工大</small></div>
+                                </li>
+                                <li>&nbsp</li>
+                                <li>
+                                    <div class=" text-primary glyphicon glyphicon-user">&nbsp;参与人数：<small>20人</small></div>
+                                </li>
+                                <li>&nbsp</li>
+                                <li>
+                                    <div class=" text-primary glyphicon glyphicon-globe" >
+                                        <address> <strong>Twitter, Inc.</strong><br /> 795 Folsom Ave, Suite 600<br /> San Francisco, CA 94107<br /> <abbr title="Phone">P:</abbr> (123) 456-7890</address>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">了解了</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    
+
+ 
+  
+ 
+<!--活动展示主体结束-->
+<tc_include file="Public:footer" />
+
+<!-- JavaScript -->
+<tc_include file="Public:scripts" />
+<script src="__TMPL__Portal/js/jquery-1.11.1.min.js"></script> 
+<script src="__TMPL__Portal/js/bootstrap.min.js"></script> 
+<script>
+    $(function () {
+        $('#ad-carousel').carousel();
+        $('#menu-nav .navbar-collapse a').click(function (e) {
+            var href = $(this).attr('href');
+            var tabId = $(this).attr('data-tab');
+            if ('#' !== href) {
+                e.preventDefault();
+                $(document).scrollTop($(href).offset().top - 70);
+                if (tabId) {
+                    $('#feature-tab a[href=#' + tabId + ']').tab('show');
+                }
+            }
+        });
+    });
+
+</script>
+
+ 
+<!---->
+
+</body>
+</html>

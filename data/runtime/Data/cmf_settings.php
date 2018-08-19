@@ -1,0 +1,1 @@
+a:2:{s:16:"banned_usernames";s:4:"fuck";s:7:"storage";a:2:{s:4:"type";s:5:"Qiniu";s:5:"Qiniu";a:4:{s:9:"accessKey";s:40:"V47FdE8K89UW1WXACQXIkyYS17UxaUFt_N9WslDt";s:10:"secrectKey";s:40:"0AVKjy8vh-ebC7HdMQEiT39-RJVyEwAPoElLmfjb";s:6:"domain";s:30:"7xlh3i.com1.z0.glb.clouddn.com";s:6:"bucket";s:11:"yiqiaoxihui";}}}

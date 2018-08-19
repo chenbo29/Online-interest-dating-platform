@@ -1,0 +1,29 @@
+[ 2015-10-13T16:34:15+08:00 ] ::1 /thinkcmfx/index.php/Organization/Organization/updateorguser/id/2/stid/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000806s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002681s ]
+SQL: SHOW COLUMNS FROM `sp_users` [ RunTime:0.0510s ]
+SQL: SELECT `user_status` FROM `sp_users` WHERE `id` = '2' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_user_org` [ RunTime:0.0139s ]
+
+[ 2015-10-13T16:53:11+08:00 ] ::1 /thinkcmfx/index.php/Organization/OrganizationAdmin/agreeapply/id/37/orgid/3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002467s ]
+SQL: SHOW COLUMNS FROM `sp_user_register` [ RunTime:0.0177s ]
+SQL: SELECT * FROM `sp_user_register` WHERE ( id=37 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sp_user_org` [ RunTime:0.0139s ]
+SQL: SELECT * FROM `sp_user_org` WHERE `user_id` = 2 AND `ORG_ID` = 3 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-10-13T16:53:14+08:00 ] ::1 /thinkcmfx/index.php/Organization/OrganizationAdmin/agreeapply/id/37/orgid/3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001130s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002533s ]
+SQL: SHOW COLUMNS FROM `sp_user_register` [ RunTime:0.0126s ]
+SQL: SELECT * FROM `sp_user_register` WHERE ( id=37 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sp_user_org` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `sp_user_org` WHERE `user_id` = 2 AND `ORG_ID` = 3 LIMIT 1   [ RunTime:0.0004s ]
+

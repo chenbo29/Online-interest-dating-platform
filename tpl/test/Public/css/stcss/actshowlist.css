@@ -1,0 +1,27 @@
+.caption h3
+{
+	height: 87px;
+}
+.caption p{
+	height: 40px;
+}
+.face
+{
+	width: 27px;
+    height: 27px;
+    margin-right: 8px;
+}
+.apply
+{
+	padding-top: 8px;
+    padding-bottom: 7px;
+    border-top: 1px solid #eae9e9;
+}
+.time,.name
+{
+	color: #a0a0a0;
+}
+.span3
+{
+	margin-left: 20px;
+}

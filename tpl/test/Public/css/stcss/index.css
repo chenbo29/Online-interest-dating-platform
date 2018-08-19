@@ -1,0 +1,258 @@
+ul,li{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.row
+{
+	max-width: 1000px;
+	margin: 0 auto;
+}
+.span6
+{
+	height: 350px;
+	margin-right: 10px;
+	float: right;
+}
+
+.span6 li
+{	
+	height: 40px;
+	padding: 4px;
+	border-bottom:1px solid #333;
+	
+}
+.rq
+{
+	float: right;
+}
+.span4
+{
+	width:330px;
+}
+.gg-pic
+{
+	width: 330px;
+	
+}
+
+a:hover
+{
+	text-decoration: none;
+}
+
+.gg
+{
+	margin-left: 6px;
+	color: #000;
+}
+.gg h3
+{
+	height: 40px;
+}
+
+
+p a:hover,.caption a:hover
+{
+	text-decoration: none;	
+}
+#lastest-active
+{
+	/*margin-top: 20px;*/
+	/*background:#F8F8F1;*/
+}
+#lastest-active .span3
+{
+	/*margin-left: 0;*/
+}
+
+#lastest-active img
+{
+	margin:0;
+}
+.time
+{
+	margin: 15px auto  3px ;
+}
+.face
+{
+	width: 27px;
+    height: 27px;
+    margin-right: 8px;
+}
+.apply
+{
+	padding-top: 6px;
+    padding-bottom: 7px;
+    border-top: 1px solid #eae9e9;
+}
+.time,.name
+{
+	color: #a0a0a0;
+}
+.old-act
+{
+	float: left;
+	width: 675px;
+	height: 375px;
+	margin-left: 20px;
+}
+
+/*横向轮播图*/
+#demo {
+ overflow:hidden;
+width: 675px;
+ /*box-shadow: 3px 3px 3px 3px #888888;*/
+ border:#888888 0px solid;
+filter:progid:DXImageTransform.Microsoft.Shadow(color=#074A99,strength=4);/*ie*/
+-moz-box-shadow: 0 0 10px #888888;/*firefox*/
+-webkit-box-shadow: 0 0 10px #888888;/*safari或chrome*/
+box-shadow: 0 0 10px #888888;/*opera或ie9*/
+}
+#demo img {
+/*padding-top: 20px;*/
+}
+#indemo {
+float: left;
+width: 800%;
+}
+#demo1 {
+ float: left;
+}
+#demo2 {
+float: left;
+}
+#S_LIST li {
+ list-style-type: none;
+ float:left;
+ margin-right:10px;
+}
+#S_LIST a {
+ display: block;
+ margin: 0px;
+ /*width: 154px;*/
+ height: auto;
+ /*text-align: center;*/
+ padding-right: 0px;
+ padding-bottom: 3px;
+ padding-left: 0px;
+}
+#S_LIST .apply a
+{
+	float: left;
+}
+.old-act h3,#lastest-active h3{
+	height: 87px;
+}
+.caption p{
+	height: 40px;
+}
+.cover-pic
+{
+	
+	height: 130px;
+}
+/*.more
+{
+	float: left;
+	width:60px;
+	height: 370px;
+	border: 1px solid red;
+}*/
+.row h2
+{
+	font-size: 20px;
+}
+.more
+{
+	float: right;
+	font-size: 18px;
+}
+
+.src-left
+{
+	width: 500px;
+	height: 370px;
+	float: left;
+	padding-top: 15px;
+	
+}
+.src-left ul li
+{	
+	
+	float: left;
+	width:240px;
+	overflow: hidden;
+	padding: 5px;
+}
+p.srcName
+{
+	width: 100%;
+	padding-top: 5px;
+	text-align: center;
+	overflow: hidden;
+	font-size: 18px;
+}
+.src-right
+{
+	width: 500px;
+	height: 370px;
+	float: left;
+}
+.src-right h2
+{
+	margin: 0;
+	background-color: 
+}
+.src-right ul
+{
+	padding: 0;
+}
+
+.src-right ul li
+{
+	height: 50px;
+	border:1px solid #E8E8E8;
+	padding: 15px 15px 15px 15px; 
+}
+.src-right li:hover
+{
+	background: #e8e8e8;
+	border-left: 5px solid #62B651;
+}
+.tieba-right
+{
+
+	height: 370px;
+	float: left;
+	padding-top: 15px;
+}
+
+.list-boxes {
+	padding: 5px 10px;
+    margin-bottom: 0px;
+    border-bottom: 1px dashed #e5e5e5;
+}
+.row{
+	padding: 5px;
+	
+}
+
+.wqhd{
+	width: 100%;
+	
+}
+#container
+{
+	width: 970px;
+}
+.updateMyinfo
+{
+	font-size: 15px;
+}
+.msg
+{
+	width: 410px;
+	float: right;
+}
+

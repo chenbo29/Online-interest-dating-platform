@@ -1,0 +1,38 @@
+<admintpl file="header" />
+<!-- <script type="text/javascript" src="__ROOT__/statics/js/layer/layer.js"></script> -->
+<style type="text/css">
+span{
+	margin:10px;
+}
+</style>
+</head>
+<body class="J_scroll_fixed">
+	<div class="wrap J_check_wrap">
+		<ul class="nav nav-tabs">
+     		<li ><a href="{:U('OrganizationAdmin/notice',array('orgid'=>$orgid))}">所有公告</a></li>
+     		<li ><a href="{:U('OrganizationAdmin/launchnotice',array('orgid'=>$orgid))}">发布公告</a></li>
+		</ul>
+		<h2 style="text-align:center;">{$title}</h2>
+    	<div class="article-infobox">
+    		<span >发布日期：{$time} </span> <span >发布人： {$authorname}</span>
+    		<span>
+    			<span>浏览次数：
+    			<a href="javascript:;">
+    				<i class="fa fa-eye"></i>
+    			</a>
+    				{$hits}
+    			</span>
+    			
+			</span>
+    	</div>
+    	<hr>
+    	<div >
+    	{$content}
+    	</div>
+	</div>
+<!-- 	  	<div >
+
+      		<a class="btn"style="margin-left:130px" href="{:U('OrganizationAdmin/notice',array('orgid'=>$orgid))}">返回</a>
+    	</div> -->
+</body>
+</html>

@@ -1,0 +1,27 @@
+<admintpl file="header" />
+<script type="text/javascript" src="__ROOT__/statics/js/layer/layer.js"></script>
+</head>
+<body class="J_scroll_fixed">
+	<div class="wrap J_check_wrap">
+		<ul class="nav nav-tabs">
+     		<li ><a href="{:U('OrganizationAdmin/notice',array('orgid'=>$orgid))}">所有公告</a></li>
+     		<li ><a href="{:U('OrganizationAdmin/launchnotice',array('orgid'=>$orgid))}">发布公告</a></li>
+		</ul>
+			<h2>{$title}</h2>
+	    	<div class="article-infobox">
+	    		<span>{$time} by {$user_nicename|default=$user_login}</span>
+	    		<span>
+	    			<a href="javascript:;"><i class="fa fa-eye"></i><span>{$post_hits}</span></a>
+					<a href="{:U('article/do_like',array('id'=>$object_id))}" class="J_count_btn"><i class="fa fa-thumbs-up"></i><span class="count">{$post_like}</span></a>
+
+				</span>
+	    	</div>
+	    	<hr>
+	    	<div id="article_content">
+	    	{$content}
+	    	</div>
+	</div>
+<script src="__ROOT__/statics/js/common.js"></script>
+
+</body>
+</html>

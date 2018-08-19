@@ -1,0 +1,96 @@
+ul,li{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+a:hover
+{
+	text-decoration: none;
+}
+.container .row
+{
+	margin-top: 20px;
+}
+
+.stlogo img
+{
+	width: 270px;
+	height: 150px;
+}
+
+.caption h3 
+{	
+	width: 260px;
+	height: 84px;
+}
+.caption span a
+{
+display: inline-block;
+margin-bottom: 8px;
+font-size: 23px;
+color: #1AD4D1;
+}
+p a:hover,.caption a:hover
+{
+	text-decoration: none;	
+}
+#lastest-active
+{
+	/*margin-top: 20px;*/
+}
+.span3
+{	
+	margin-top: 20px;
+	margin-left:20px;
+}
+
+#lastest-active img
+{
+	margin:0;
+}
+.time
+{
+	margin: 8px auto  3px ;
+}
+.face
+{
+	width: 27px;
+    height: 27px;
+    margin-right: 8px;
+}
+.apply
+{
+	padding-top: 3px;
+    padding-bottom: 7px;
+    border-top: 1px solid #eae9e9;
+}
+.time,.name
+{
+	color: #a0a0a0;
+}
+.old-act
+{
+	float: left;
+	width: 870px;
+	height: 375px;
+	margin-left: 20px;
+}
+
+.nav 
+{
+    margin-left: 30px;
+}
+#createSt
+{	
+	float: right;
+	background-color: #3071a9;
+	
+}
+#createSt a
+{
+	color: white;
+	margin-right: 0;
+}
+#createSt a:hover{
+	color: #3071a9;
+}

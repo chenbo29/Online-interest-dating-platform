@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>{$site_name}</title>
+<meta name="keywords" content="{$site_seo_keywords}" />
+<meta name="description" content="{$site_seo_description}">
+<tc_include file="Public:head" />
+
+</head>
+
+<body class="body-white">
+  <div class="container tc-main">
+  
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="">申请加入</button>
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="exampleModalLabel">在申请前，您需要回答以下问题：</h4>
+      </div>
+      <div class="modal-body">
+        <form id="rform"action="{:U('organization/organization/doapply',array('orgid'=>$orgid))}" method="post">
+
+          <div class="form-group">
+            <label for="message-text" class="control-label">Question: {$info.issue}</label>
+            <textarea class="form-control" style="width:500px" id="message-text"></textarea>
+            <p>{$info.name}将获取您的个人资料，如果您不同意，请勿提交申请，点击退出！</p>
+            <p id="error" style="color:red;font-size:20px"></p>
+            <p id="success"style="color:blue"></p>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">退出</button>
+        <input type="button" id="register" class="btn btn-primary"value="提交申请">
+      </div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="__ROOT__/statics/js/jquery.js"></script>
+<script>
+$(function(){
+
+  $('#register').click(function(){
+  var $reason=$('#message-text').val();
+  var $action=$('#rform').attr('action');
+  
+  //console.log($action);
+  $.post($action,{whyjoin:$reason},function(data){
+    //console.log(data);
+    //alert(data['uname']);
+    //$('#notice').html(data.info);
+    $('#error').html('');
+    $('#success').html('');
+    if(data.statu==0)
+       $('#error').html(data.info);
+    if(data.statu==1)
+       $('#success').html(data.info);
+
+    });
+  })
+
+  $('#exampleModal').on('show.bs.modal', function (e) {
+  // do something...
+  $('#error').html('');
+  $('#success').html('');
+})
+
+})
+
+</script>
+
+
+
+  </div>
+  <!-- /container -->
+
+  <tc_include file="Public:scripts" />
+  
+
+  
+  <!-- /container <script src="__TMPL__Public/js/jquery.form.js"></script>--> 
+
+</body>
+</html>

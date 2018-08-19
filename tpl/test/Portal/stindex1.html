@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>{$site_seo_title} {$site_name}</title>
+<meta name="keywords" content="{$site_seo_keywords}" />
+<meta name="description" content="{$site_seo_description}">
+<tc_include file="Public:head" />
+<link href="__TMPL__Public/css/slippry/slippry.css" rel="stylesheet">
+<link href="__ROOT__/statics/CoverScroll/css/coverscroll.css" rel="stylesheet">
+<link href="__TMPL__Public/css/stcss/index.css" rel="stylesheet">
+	<style>
+.caption-wraper{position: absolute;left:50%;bottom:2em;}
+.caption-wraper .caption{
+position: relative;left:-50%;
+background-color: rgba(0, 0, 0, 0.54);
+padding: 0.4em 1em;
+color:#fff;
+-webkit-border-radius: 1.2em;
+-moz-border-radius: 1.2em;
+-ms-border-radius: 1.2em;
+-o-border-radius: 1.2em;
+border-radius: 1.2em;
+}
+@media (max-width: 767px){
+	.sy-box{margin: 12px -20px 0 -20px;}
+	.caption-wraper{left:0;bottom: 0.4em;}
+	.caption-wraper .caption{
+	left: 0;
+	padding: 0.2em 0.4em;
+	font-size: 0.92em;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	-ms-border-radius: 0;
+	-o-border-radius: 0;
+	border-radius: 0;}
+}
+
+.activityshowhead{
+color: #fff;
+font-size: 30px;
+font-style: italic;
+}
+.titleposition{
+margin-top:34%;
+}
+.guestbooktable{
+	width:590px;
+	float:left;
+}
+.ybgg{
+
+	padding: 6px;
+	border-bottom:1px solid #333;
+}
+.hdgginfo{
+color: #000;
+margin-top: 3px;
+}
+.usershow{
+	
+	padding:30px;
+	margin-top: 80px;
+	background:#F8F8F8;
+}
+.message{
+	
+	padding-top:30px;
+	padding-bottom: 30px;
+	margin-top: 80px;
+}
+.hdgg{
+	background:#FFFFF2;
+	padding-top:30px;
+	padding-bottom: 30px;
+	padding-right: 30px;
+	margin-top: 80px;
+}
+.wqhd{
+	
+	padding-top:30px;
+	padding-bottom: 30px;
+	margin-top: 100px;
+}
+.zygx{
+	background:#FFFFF2;
+	padding-top:30px;
+	padding-bottom: 30px;
+	margin-top: 100px;
+}
+</style>
+</head>
+<body class="body-white">
+
+<tc_include file="Public:nav" />
+
+<php>
+$home_slides=sp_getslide("portal_index",$_GET['stid']);
+$video=sp_getslidevideo("portal_index",$_GET['stid']);
+$home_slides=empty($home_slides)?$default_home_slides:$home_slides;
+</php>
+
+	<!-- 轮播图开始 -->
+
+	<!-- 轮播图结束 -->
+
+	<!-- slider begin -->
+
+<ul id="homeslider" class="unstyled">
+<php>$flag=1;</php>
+	<foreach name="home_slides" item="vo">
+	<li>
+		<div class="caption-wraper" >
+			<div class="caption">				
+				<if condition="($video neq null) AND ($flag eq 1)" >
+					<p style="text-align:center;"><!-- {$video} --></p>
+					<video id="media"class="edui-upload-video  vjs-default-skin video-js" controls="" preload="none" width="800" height="35" src="{:sp_get_asset_upload_path($video)}" data-setup="{}"><source src="{:sp_get_asset_upload_path($video)}" type="rmvb"/></video>
+				<else/>
+					<div class="piccontent">{$vo.slide_content}</div>
+				</if>
+				
+			</div>
+		</div>
+		<a href="{$vo.slide_url}"><img src="{:sp_get_asset_upload_path($vo['slide_pic'])}" alt=""></a>
+	</li>
+	<php>$flag=0;</php>
+	</foreach>
+
+</ul>
+
+		<!--  end-->
+
+<div class="container">
+		<!-- 公告开始 -->
+
+		<div class="row hdgg">
+			<div class="span4">
+				<div class="thumbnail" style="height: 350px;width:270px;">
+					<div class="gg-pic">
+						<!-- <a href="__ROOT__/index.php/list/hdggList/stid/{$_GET['stid']}" title="活动公告" target="_blank"> -->
+						<!-- 必须大U方法 -->
+						<a href="{:U('Portal/List/hdggList',array('stid'=>$_GET['stid']))}" title="活动公告" target="_blank">
+							<img class="lazy" src="__TMPL__Public/images/hdgg.jpg" width="270" height="150"  alt="Headroom.js"></a>
+					</div>
+
+					<div class="caption gg" >
+						<h3>
+							<a href="{:U('Portal/List/hdggList',array('stid'=>$_GET['stid']))}" title="活动公告" target="_blank"> <i class="fa fa-flag"></i>
+								&nbsp;最新活动
+							</a>
+						</h3>
+						<div >
+							<if condition="empty($latestHdgg)">
+								<h3>近期暂无活动</h3>
+							<else/>
+								<h3>
+									<a style="color:#000;"title="{$latestHdgg['content']}"href="{:U('Portal/Article/hdggDetail',array('stid'=>$_GET['stid'],'id'=>$latestHdgg['id']))}" target="_blank">{$latestHdgg['theme']|msubstr=0,8}
+									</a>
+								</h3>
+							</if>
+						</div>
+						<if condition="empty($latestHdgg)">
+								
+						<else/>
+							<div class="hdgginfo"><i class="fa fa-paper-plane"></i>发起人by:
+								<span style="float:right;">{$latestHdgg['nicename']}
+								</span>
+							</div>
+							<div class="hdgginfo"><i class="fa fa-user" ></i>人数要求:
+								<span style="float:right;">{$latestHdgg['require']|default="待定"}人
+								</span>
+							</div>
+							<div class="hdgginfo"><i class="fa fa-group"></i>已报人数:
+								<span style="float:right;">{$latestHdgg['joined']}人
+								</span>
+							</div>
+							<div class="hdgginfo"><i class="icon-time"></i>活动时间:
+								<span style="float:right;">{$latestHdgg['begin_time']|msubstr=2,14,'utf-8',false}
+								</span>
+							</div>
+<!-- 							<div class="hdgginfo"><i class="icon-warning-sign"></i>报名截止时间:
+								<span style="float:right;">{$latestHdgg['deadline']|msubstr=2,14,'utf-8',false}
+								</span>
+							</div> -->
+						</if>
+					</div>
+				</div>
+			</div>
+			<div class="span8">
+				<h2> <i class="fa fa-envelope-o"></i>
+					一般公告
+					<!-- <a href="__ROOT__/index.php/list/ybggList/stid/{$_GET['stid']}" class="more"> -->
+					<a href="{:U('list/ybggList',array('stid'=>$_GET['stid']))}" class="more">
+						更多
+						<i class="fa fa-angle-right fa-lg"></i>
+						<i class="fa fa-angle-right fa-lg"></i>
+					</a>
+				</h2>
+
+				<ul>
+					<foreach name="ybggList" item="vo">
+						<li>
+							<a href="{:leuu('article/ybggDetail',array('stid'=>
+								$_GET['stid'],'id'=>$vo['id']))}">
+								<h4>
+									<i class="fa fa-paper-plane"></i>
+									&nbsp;&nbsp;{$vo['title']||msubstr=0,35,'utf-8'}
+									<span class="rq">{$vo['time']|strtotime|date="Y-m-d",###}</span>
+								</h4>
+							</a>
+						</li>
+					</foreach>
+				</ul>
+			</div>
+		</div>
+		<!-- 公告结束 -->
+
+<div class="row wqhd" id="lastest-active">
+	<h2>
+		<i class="fa fa-tags"></i>
+		往期活动精选
+
+		<a href="{:U('list/actShowList',array('stid'=>$_GET['stid']))}" class="more">
+			更多
+			<i class="fa fa-angle-right fa-lg"></i>
+			<i class="fa fa-angle-right fa-lg"></i>
+		</a>
+	</h2>
+	<!-- 最近一次活动展示 -->
+
+	<div class="span3" >
+		<div class="thumbnail" style="height: 368px;">
+			<if condition="empty($latestHdgg)">
+					<span style="color:red;font-size:20px;">暂未上传任何活动</span><hr>
+					<span style="font-size:15px;">对于组织做过的活动，<hr>管理员可以将这些精<hr>彩的活动通过后台上<hr>传后，就可以展示到这<hr>里。</span>
+			<else/>
+			<div class="cover-pic">
+				<a href="{:leuu('article/actShowDetail',array('stid'=>
+					$_GET['stid'],'id'=>$first['id']))}" title="{$first['theme']}" target="_blank">
+					<img style="height:300px;width:270px"class="lazy" src="{:sp_get_asset_upload_path($first['cover_picture'])}"   alt="{$vo['theme']}">
+				</a>
+			</div>
+			<div class="caption">
+				<div class="titleposition">
+					<a href="{:leuu('article/actShowDetail',array('stid'=>
+						$_GET['stid'],'id'=>$first['id']))}" title="{$first['theme']}" target="_blank">
+				<span class="activityshowhead">{$first['theme']|msubstr=0,20,'utf-8',false}</span>
+					</a>
+				</div>
+				</br>
+				<div style="height:30px">
+					<p>{$vo['conent']|msubstr=0,25}</p>
+				</div>
+				<div class="time">
+					<span class="icon-time"></span>
+					{$first['begin_time']|strtotime|date="Y.m.d",###}~{$first['over_time']|strtotime|date="Y.m.d",###}
+					<span class="pull-right">
+						<span class="icon-user" title="参与人数"></span>
+						{$first['people']}
+					</span>
+				</div>
+
+				<div class="apply">
+					<a href="__ROOT__/index.php/Portal/Index/index/stid/{$first['org_id']}" target="_blank">
+						<img class="face" src="{:sp_get_asset_upload_path($first['logo'])}" alt="{$vo['name']}" >
+						<span class="name" title="{$vo['name']}">{$first['name']}</span>
+					</a>
+				</div>
+			</div>
+			</if>
+		</div>
+	</div>
+	<!-- 最近一次活动展示结束 -->
+
+	<!-- 历史活动展示开始-->
+	<div class="old-act">
+		<div id="demo">
+			<div id="indemo">
+				<div id="demo2">
+					<ul id="S_LIST">
+						<foreach name="actShowList" item="vo">
+							<li>
+								<div class="span3" >
+									<div class="thumbnail" style="height: 368px;">
+										<div class="cover-pic">
+											<a href="{:leuu('article/actShowDetail',array('stid'=>
+												$_GET['stid'],'id'=>$vo['id']))}" title="{$vo['theme']}" target="_blank">
+											<img style="height:300px"class="lazy" src="{:sp_get_asset_upload_path($vo['cover_picture'])}" width="320" alt="{$vo['theme']}"></a>
+										</div>
+										<div class="caption">
+											<div class="titleposition">
+											<a href="{:leuu('article/actShowDetail',array('stid'=>
+												$_GET['stid'],'id'=>$vo['id']))}" title="{$vo['theme']}" target="_blank">
+										<span class="activityshowhead">{$vo['theme']|msubstr=0,20,'utf-8',false}</span>
+											</a>
+											</div>
+											<p>{$vo['content']|msubstr=0,25}</p>
+										<div class="time">
+											<span class="icon-time"></span>
+											{$vo['begin_time']|strtotime|date="Y.m.d",###}~{$vo['over_time']|strtotime|date="Y.m.d",###}
+											<span class="pull-right">
+												<span class="icon-user" title="参与人数"></span>
+												{$vo['people']}
+											</span>
+										</div>
+										<div class="apply">
+											<a href="__ROOT__/index.php/Portal/Index/index/stid/{$vo['org_id']}" target="_blank">
+												<img class="face" src="{:sp_get_asset_upload_path($vo['logo'])}" alt="{$vo['name']}" title="活动行">
+												<span class="name" title="{$vo['name']}">{$vo['name']}</span>
+											</a>
+										</div>
+										</div>
+									</div>
+								</div>
+							</li>
+						</foreach>
+					</ul>
+				</div>
+				<div id="demo1">
+					<ul id="S_LIST">
+						<foreach name="actShowList" item="vo">
+							<li>
+								<div class="span3" >
+									<div class="thumbnail" style="height: 368px;">
+										<div class="cover-pic">
+											<a href="{:leuu('article/actShowDetail',array('stid'=>
+												$_GET['stid'],'id'=>$vo['id']))}" title="{$vo['theme']}" target="_blank">
+												<img style="height:300px"class="lazy" src="{:sp_get_asset_upload_path($vo['cover_picture'])}" width="320" alt="{$vo['theme']}"></a>
+										</div>
+										<div class="caption">
+										<div class="titleposition"style="margin-top:34%;">
+											
+												<a href="{:leuu('article/actShowDetail',array('stid'=>
+													$_GET['stid'],'id'=>$vo['id']))}" title="{$vo['theme']}" target="_blank">
+											<span class="activityshowhead">{$vo['theme']|msubstr=0,20,'utf-8',false}</span>
+												</a>	
+										</div>
+
+										<div>
+											<p>{$vo['content']|msubstr=0,25}</p>
+										</div>
+											<div class="time">
+												<span class="icon-time"></span>
+												{$vo['begin_time']|strtotime|date="Y.m.d",###}~{$vo['over_time']|strtotime|date="Y.m.d",###}
+												<span class="pull-right">
+													<span class="icon-user" title="参与人数"></span>
+													{$vo['people']}
+												</span>
+											</div>
+											<div class="apply">
+												<a href="__ROOT__/index.php/Portal/Index/index/stid/{$vo['org_id']}" target="_blank">
+													<img class="face" src="{:sp_get_asset_upload_path($vo['logo'])}" alt="{$vo['name']}" title="活动行">
+													<span class="name" title="{$vo['name']}">{$vo['name']}</span>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+						</foreach>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- 资源共享开始 -->
+<?php $zy_navs=_sp_get_menu_datas("5"); ?>
+
+<div class="row zygx">
+	<h2>
+		<i class="fa fa-link"></i>
+		资源共享
+<!-- 		<a href="empty" class="more">
+			更多
+			<i class="fa fa-angle-right fa-lg"></i>
+			<i class="fa fa-angle-right fa-lg"></i>
+		</a> -->
+	</h2>
+	<div class="src-left">
+		<?php 
+			// var_dump($zy_navs);
+		 ?>
+		<ul>
+			<foreach name="zy_navs" item="v">
+				<li>
+					<a href="{$v.href}/stid/{$_GET['stid']}" target="_blank" title="炙爱" class="img">
+						<img src="{$v.icon}"  width="230" height="150" alt="炙爱"></a>
+					<p class="srcName">
+						<a href="{$v.href}/stid/{$_GET['stid']}" target="_blank">{$v.label}</a>
+					</p>
+					<p class="time"></p>
+					<a href="{$v.href}/stid/{$_GET['stid']}" target="_blank" class="play" style="display: none;">
+						<img src="http://image.kuwo.cn/www2014/play.png"></a>
+				</li>
+			</foreach>
+		</ul>
+	</div>
+	<div class="src-right">
+		<h2>
+			<i class="fa fa-download"></i>
+			置顶分享
+		</h2>
+		<ul>
+			<foreach name="shareList" item="v">
+				<li>
+					<a href="{:leuu('article/index',array('id'=>$v['tid'],'stid'=>$_GET['stid']))}">{$v['post_title']}</a>
+					<h4>{$v['post_excerpt']||msubstr=0,100}</h4>
+				</li>
+			</foreach>
+
+		</ul>
+
+	</div>
+</div>
+<!-- 资源共享结束 -->
+
+<!-- 贴吧讨论区开始 -->
+
+<div class="row"style="margin-top: 80px;">
+	<div class="accordion-group">
+		<div class="accordion-heading">
+			<h2 class="accordion-toggle">
+				<a href="{:U('list/tiebaList',array('stid'=>$_GET['stid']))}">
+					<i class="fa  fa-fire"></i>
+					贴吧讨论区
+				</a>
+
+				<a href="{:U('list/tiebaList',array('stid'=>$_GET['stid']))}" class="more">
+					更多
+					<i class="fa fa-angle-right fa-lg"></i>
+					<i class="fa fa-angle-right fa-lg"></i>
+				</a>
+			</h2>
+		</div>
+		<div id="collapse0" class="accordion-body in collapse" style="height: auto;">
+			<div class="accordion-inner">
+				<foreach name="tiebaList" item="vo">
+					<div class="list-boxes">
+						<h2 class="pull-left">
+							<a href="{:leuu('article/tieziDetail',array('stid'=>
+								$_GET['stid'],'id'=>$vo['id']))}" target="_blank">{$vo.post_title}
+							</a>
+						</h2>
+						<div class="pull-right">
+							<a href="/user/index/index/id/1217.html" target="_blank">{$vo.user_login}</a>
+							<span>
+								<i class="fa fa-eye"></i>
+								:{$vo.post_hits}
+							</span>
+							<a href="{:leuu('article/tieziDetail#comments',array('stid'=>
+								$_GET['stid'],'id'=>$vo['id']))}" target="_blank">
+								<i class="fa fa-comment"></i>
+								:
+								<span>{$vo.comment_count}</span>
+							</a>
+							<span class=" time">
+							<?php echo date("Y年m月d h:i", strtotime($vo['post_date'])); ?></span>
+						</div>
+					</div>
+				</foreach>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+
+</div>
+<!-- 贴吧讨论区结束 -->
+<!-- 成员风采展示开始 -->
+<div class="row usershow">
+<h2><i class="fa fa-group"></i>成员风采</h2><i class="fa fa-group"></i><span style="float:left;">共{$orgusercount}人</span>
+	<div id="container">		
+		<foreach name="orguser" item="vo">
+ 	       <if condition="(empty($vo['avatar']))AND ($vo['public'] eq 1)">
+	        	<div class="item"><img src="{:sp_get_user_avatar_url("null.jpg")}" title="成员:{$vo['nicename']|default=$vo['user_login']}"/><div class="similarity"><a href="{:U('Organization/Organization/detailorguser',array('id'=>$vo['id'],'stid'=>$_GET['stid']))}"target="_Blank"title="点击查看详细信息" >详</a></div><div class="itemTitle">成员:{$vo['nicename']|default=$vo['user_login']}</div></div>
+	       <elseif condition="(empty($vo['avatar'])) AND ($vo['public'] eq 0)"/>
+	        	<div class="item"><img src="{:sp_get_user_avatar_url("private.jpg")}" title="成员:{$vo['nicename']|default=$vo['user_login']}"/><div class="similarity">密</div><div class="itemTitle">成员:{$vo['nicename']|default=$vo['user_login']}</div></div>
+	       <elseif condition="$vo['public'] eq 1"/>
+	        	<div class="item">
+	        		<img src="{:sp_get_user_avatar_url($vo['avatar'])}" title="成员:{$vo['nicename']|default=$vo['user_login']}"/>
+	        		<div class="similarity">
+	        			<a href="{:U('Organization/Organization/detailorguser',array('id'=>$vo['id'],'stid'=>$_GET['stid']))}"target="_Blank" title="点击查看详细信息">详
+	        			</a>
+	        		</div>
+	        		<div class="itemTitle">成员:{$vo['nicename']|default=$vo['user_login']}</div>
+	        		
+	        	</div>
+	        <else/>
+	        	<div class="item"><img src="{:sp_get_user_avatar_url("private.jpg")}" title="成员:{$vo['nicename']|default=$vo['user_login']}"/><div class="similarity">密</div><div class="itemTitle">成员:{$vo['nicename']|default=$vo['user_login']}</div></div>
+	        </if>	       
+		</foreach>
+		<div style="margin-top:5px">
+			<php>$userid=sp_get_current_userid();</php>
+			<if condition="sp_in_current_org($userid,$_GET['stid'])">
+				<a  href="{:U('Organization/Organization/updateorguser',array('stid'=>$_GET['stid']))}"target="_Blank">更新我的风采</a>
+			<else/>
+			</if>
+			<a onClick="$('#container').coverscroll('prev')" href="javascript:;">上一个</a>&nbsp;&nbsp;<a onClick="$('#container2').coverscroll('next')" href="javascript:;">下一个</a>&nbsp;&nbsp;<a  href="{:U('Organization/Organization/allorguser',array('stid'=>$_GET['stid']))}"target="_Blank">全部</a>
+		</div>
+	</div>
+</div>
+<!-- 风采展示结束 -->
+
+<!-- 留言板开始 -->
+	<div class="row message">
+		<h2 ><i class="fa fa-comment"></i>留言板</h2>
+		<h4><i class="fa fa-list"></i>留言</h4>
+		<div  class="guestbooktable">		
+			<table class="table table-hover "style="background:#F8F8F1;">
+			<thead>
+				<tr>
+					<th width="300">留言内容：</th>
+					<th width="90">留言时间：</th>
+				</tr>
+			</thead>
+			<tbody>
+				<foreach name="guestmsgs" item="vo">
+					<tr>
+						
+						<td>{$vo.msg}</td>
+						<td>{$vo.createtime|msubstr=2,14,'utf-8',false}</td>
+					</tr>
+				</foreach>
+			</tbody>
+			</table>
+			<div class="pagination">{$Page}</div>
+		</div>
+		<div style="float:right">
+			<form class="J_ajaxForm" role="form" method="post" action="{:u('api/guestbook/addmsg')}">
+				<!-- 保留$orgid接口 -->
+				<input type="hidden" class="span3"name="ORG_ID"value="{$orgid}">
+			    <label>内容</label>
+			    <textarea class="span6" id="message" placeholder="Write you message here..." name="msg"></textarea>
+			    <label>验证码</label>
+			    <input type="text" class="span3" style=""placeholder="please enter the code"  name="verify" autocomplete="off">
+			   {:sp_verifycode_img('length=4&font_size=20&width=238&height=34&font_color=&background=','style="cursor: pointer;vertical-align: top;" title="点击获取"')}
+                <div class="controls">
+                  <label class="radio inline"style="float:left">
+                    <input type="radio" name="public" value="1" checked>公开
+                  </label>
+                  <label class="radio inline" style="float:left">
+                    <input type="radio" value="0"name="public">不公开
+                     公开后，您的留言将会显示在左侧，否则只有管理员能看到这条留言。
+                  </label>
+
+                </div>
+			   <button type="submit" class="btn btn-primary J_ajax_submit_btn">发送留言</button>
+			</form>
+		</div>
+	</div>
+<!-- 留言板结束 -->
+
+	<a href="{:U('User/St/timeline',array('stid'=>$_GET['stid']))}" >时间轴</a>
+	
+	<!-- 模组框 申请加入模块-->
+	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        <h4 class="modal-title" id="exampleModalLabel">在申请前，您需要回答以下问题：</h4>
+	      </div>
+	      <div class="modal-body">
+	        <form id="rform"action="{:U('organization/organization/doapply',array('orgid'=>$_GET['stid']))}" method="post">
+
+	          <div class="form-group">
+	            <label for="message-text" class="control-label">Question: {$orgdata.issue}</label>
+	            <textarea class="form-control" style="width:500px" id="message-text"></textarea>
+	            <p>{$info.name}将获取您的个人资料，如果您不同意，请勿提交申请，点击退出！</p>
+	            <p id="error" style="color:red;font-size:20px"></p>
+	            <p id="success"style="color:blue"></p>
+	          </div>
+	        </form>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">退出</button>
+	        <button type="button" id="registerorg" class="btn btn-primary">提交申请</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<!-- 模组框 申请加入模块结束-->
+
+</div>
+	<tc_include file="Public:footer"/>
+<tc_include file="Public:scripts"/>
+<script src="__ROOT__/statics/CoverScroll/scripts/jquery.coverscroll.min.js"></script>
+<script src="__TMPL__Public/js/slippry.min.js"></script>
+<script src="__TMPL__Public/js/stjs/index.js"></script>
+
+<script>
+/*申请加入模组框*/
+$('#registerorg').click(function(){
+  var $reason=$('#message-text').val();
+  var $action=$('#rform').attr('action');
+  /*alert("sadfas");*/
+  //console.log($action);
+  $.post($action,{whyjoin:$reason},function(data){
+    //console.log(data);
+    //alert(data['uname']);
+    //$('#notice').html(data.info);
+    $('#error').html('');
+    $('#success').html('');
+    if(data.statu==0)
+       $('#error').html(data.info);
+    if(data.statu==1)
+       $('#success').html(data.info);
+    });
+  })
+
+/*风采展示模块特效*/
+$('#container').coverscroll({items:'.item', 
+	minfactor:20, 
+	scalethreshold:0, 
+	staticbelowthreshold:true, 
+	distribution:1.5,
+	selectedclass: false,
+	 bendamount:2
+});
+
+
+$(function() {
+
+  $('#exampleModal').on('show.bs.modal', function (e) {
+  // do something...
+  $('#error').html('');
+  $('#success').html('');
+	})
+
+	//var flag=true;
+	var demo1 = $("#homeslider").slippry({
+		transition: 'fade',
+		useCSS: true,
+		captions: false,
+		speed: 1000,
+		pause: 2000,
+/*		auto: true,
+		preload: 'visible'*/
+		//adaptiveHeight: true;
+		//adaptiveWidth: true;
+		//kenZoom: 140,
+	});
+		/*为播放添加监听事件，防止播放时幻灯片滚动*/
+	Media = document.getElementById("media"); 
+
+	Media.addEventListener("play",function(){
+	 console.log("播放");
+	 //document.getElementById("idif").value="true";
+	 Media.height=500;
+	 Media.width=800;
+	 //demo1.goToPrevSlide();
+	 demo1.stopAuto();
+	 //demo1.destroySlider();
+	 //return false;
+	 //flag=false;
+	 //demo1 = $("#demo1").slippry();
+	 //demo1.auto=false;
+	},false);
+
+
+	Media.addEventListener("pause",function(){
+	 console.log("暂停");
+	 Media.height=40;
+	 Media.width=800;
+	 demo1.startAuto();
+	 //flag=true;
+	},false);
+
+});
+
+</script>
+
+
+
+{:hook('footer_end')}
+</body>
+</html>

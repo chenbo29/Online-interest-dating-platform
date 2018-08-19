@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{$name} {$seo_title} {$site_name}</title>
+	<meta name="keywords" content="{$seo_keywords}" />
+	<meta name="description" content="{$seo_description}">
+    <tc_include file="Public:head" />
+</head>
+<style type="text/css">
+.tc-gridbox{
+    
+}
+</style>
+<body>
+<tc_include file="Public:nav" />
+<div class="container">
+    <div class="pg-opt pin">
+        <div class="container">
+            <h2>所有成员</h2>
+        </div>
+    </div
+    <div class="container">
+        <div>
+            <div id="container">
+             	<div class="grid-sizer"></div>
+             	<volist name="orguser" id="vo">            	
+                    <div class="item">
+    					<div class="tc-gridbox" >
+                                <div class="header">
+                                   <if condition="(empty($vo['avatar']))AND ($vo['public'] eq 1)">
+                                        <a href="{:U('Organization/Organization/detailorguser',array('id'=>$vo['id']))}"target="_Blank"title="点击查看详细信息" >
+                                            <img src="{:sp_get_user_avatar_url("null.jpg")}" title="成员:{$vo['nicename']|default=$vo['user_login']}"/>
+                                        </a>
+                                   <elseif condition="(empty($vo['avatar'])) AND ($vo['public'] eq 0)"/>
+                                        <img src="{:sp_get_user_avatar_url("private.jpg")}" title="成员:{$vo['nicename']|default=$vo['user_login']}"/>
+                                   <elseif condition="$vo['public'] eq 1"/>
+                                        <a href="{:U('Organization/Organization/detailorguser',array('id'=>$vo['id']))}"target="_Blank" title="点击查看详细信息">
+                                            <img src="{:sp_get_user_avatar_url($vo['avatar'])}" title="成员:{$vo['nicename']|default=$vo['user_login']}"/>
+                                        </a>
+                                    <else />
+                                        <img src="{:sp_get_user_avatar_url("private.jpg")}" title="成员:{$vo['nicename']|default=$vo['user_login']}"/>
+                                    </if>   
+                            
+                                    <hr>
+                                </div>
+                                <div class="body">
+                                	{$vo['nicename']|default=$vo['user_login']}
+                                </div>
+                                <div class="footer">
+                                    <div class="pull-left"><span class="meta">{$vo['signature']|default="暂无个性签名"}</span></div>
+        							<div class="clearfix"></div>
+        						</div>
+    					</div>
+                    </div>
+                 </volist>
+            </div>
+        </div>
+    </div>
+    
+    
+    <tc_include file="Public:footer" />
+</div>
+
+    
+<!-- JavaScript -->
+<tc_include file="Public:scripts" />
+ <script src="__TMPL__Public/js/imagesloaded.pkgd.min.js"></script>
+    <script src="__TMPL__Public/js/masonry.pkgd.min.js"></script>
+	<script>
+	var $container=$('#container').masonry({
+		  columnWidth: '.grid-sizer',
+		  itemSelector: '.item'
+		});
+	// layout Masonry again after all images have loaded
+	$container.imagesLoaded( function() {
+	  $container.masonry();
+	});
+	
+	</script>
+</body>
+</html>

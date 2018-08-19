@@ -1,0 +1,51 @@
+[ 2015-10-14T10:04:15+08:00 ] ::1 /thinkcmfx/index.php/Organization/OrganizationAdmin/updatelogo/orgid/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001385s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004325s ]
+SQL: SHOW COLUMNS FROM `sp_organization` [ RunTime:0.0121s ]
+SQL: SELECT `logo` FROM `sp_organization` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sp_organization` SET `logo`='orglogo/2/561db8120ed97.jpg' WHERE `id` = 2 [ RunTime:0.0004s ]
+
+[ 2015-10-14T10:04:39+08:00 ] ::1 /thinkcmfx/index.php/Organization/OrganizationAdmin/updatelogo/orgid/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001443s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004405s ]
+SQL: SHOW COLUMNS FROM `sp_organization` [ RunTime:0.0193s ]
+SQL: SELECT `logo` FROM `sp_organization` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sp_organization` SET `logo`='orglogo/2/561db82d2fcef.jpg' WHERE `id` = 2 [ RunTime:0.0003s ]
+
+[ 2015-10-14T10:06:05+08:00 ] ::1 /thinkcmfx/index.php/Organization/OrganizationAdmin/updatelogo/orgid/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002419s ]
+SQL: SHOW COLUMNS FROM `sp_organization` [ RunTime:0.0921s ]
+SQL: SELECT `logo` FROM `sp_organization` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sp_organization` SET `logo`='orglogo/2/561db88390900.jpg' WHERE `id` = 2 [ RunTime:0.0006s ]
+
+[ 2015-10-14T10:08:55+08:00 ] ::1 /thinkcmfx/index.php/Organization/OrganizationAdmin/updatelogo/orgid/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001396s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004532s ]
+SQL: SHOW COLUMNS FROM `sp_organization` [ RunTime:0.0752s ]
+SQL: SELECT `logo` FROM `sp_organization` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `sp_organization` SET `logo`='orglogo/2/561db92fd7e12.jpg' WHERE `id` = 2 [ RunTime:0.0004s ]
+
+[ 2015-10-14T10:09:19+08:00 ] ::1 /thinkcmfx/index.php/Organization/OrganizationAdmin/updatelogo/orgid/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001256s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004200s ]
+SQL: SHOW COLUMNS FROM `sp_organization` [ RunTime:0.0123s ]
+SQL: SELECT `logo` FROM `sp_organization` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sp_organization` SET `logo`='orglogo/2/561db944e070b.jpg' WHERE `id` = 2 [ RunTime:0.0003s ]
+
+[ 2015-10-14T14:11:15+08:00 ] ::1 /thinkcmfx/index.php/Organization/OrganizationAdmin/requirements/orgid/2
+ERR: 模板不存在:tpl_admin/simpleboot/Organization/OrganizationAdmin/requirements.html
+
+[ 2015-10-14T14:11:39+08:00 ] ::1 /thinkcmfx/index.php/Organization/OrganizationAdmin/requirements/orgid/2
+ERR: 模板不存在:tpl_admin/simpleboot/Organization/OrganizationAdmin/requirements.html
+

@@ -1,0 +1,163 @@
+<admintpl file="header" />
+</head>
+<body class="J_scroll_fixed">
+	<div class="wrap J_check_wrap">
+		<ul class="nav nav-tabs">
+			<li class="active"><a href="{:U('slide/index',array('orgid'=>$orgid))}">所有风采</a></li>
+			<li><a href="{:U('slide/add',array('orgid'=>$orgid))}">添加首页宣传图片</a></li>
+			<li><a href="{:U('slide/addvideo',array('orgid'=>$orgid))}">添加宣传视频</a></li>
+		</ul>
+		<form class="well form-search" method="post" action="{:u('slide/index',array('orgid'=>$orgid))}"id="cid_form">
+			<div class="search_type cc mb10">
+				<div class="mb10">
+					<select class="select_2" name="cid" style="width: 140px;" id="selected_cid">
+						<!--<option value=''>全部</option>-->
+						<foreach name="categorys" item="vo">
+						<php>$cid_select=$vo['cid']===$slide_cid ? "selected":"";</php>
+						<option value="{$vo.cid}"{$cid_select}>{$vo.cat_name}</option>
+						</foreach>
+					</select>
+					<!--input type="hidden" name="orgid" id="orgid" value="{$orgid}"-->
+				</div>
+			</div>
+		</form>
+		<form class="J_ajaxForm" action="" method="post">
+			<h3>宣传视频</h3>
+			<table class="table table-hover table-bordered table-list" >
+				<thead>
+					<tr >
+						<th width="20">ID</th>
+						<th width="100">本组织宣传视频</th>
+						<th width="200">预览</th>
+						<th width="80">操作</th>
+					</tr>
+				</thead>
+				<if condition="$video['slide_id'] neq null">
+				<tr>
+					<td>{$video['slide_id']}</td>
+					<td>{$video['slide_name']}</td>
+					<input type="hidden"id="video"value="{$video['slide_video']}">
+					<td><a id="previewbtn" href="#" >预览</a></td>
+
+					<td>
+						
+						<a href="{:U('slide/deletevideo',array('id'=>$video['slide_id'],'orgid'=>$orgid))}" class="J_ajax_del">删除</a>
+
+<!-- 					<if condition="empty($vo['slide_status']) eq 1">
+							<a href="{:U('slide/cancelban',array('id'=>$vo['slide_id'],'orgid'=>$orgid))}" class="J_ajax_dialog_btn" data-msg="确定显示此幻灯片吗？">显示</a>
+						<else /> 
+							<a href="{:U('slide/ban',array('id'=>$vo['slide_id'],'orgid'=>$orgid))}" class="J_ajax_dialog_btn" data-msg="确定隐藏此幻灯片吗？">隐藏</a>
+						</if> -->
+					</td>
+				</tr>
+				<else />
+				<tr>
+					<td >
+					暂无上传视频！
+					</td>
+				</tr>
+				</if>
+			</table>
+
+			<h3>风采展示图片</h3>
+			<div class="table-actions">
+				<button class="btn btn-primary btn-small J_ajax_submit_btn" type="submit" data-action="{:u('slide/listorders',array('orgid'=>$orgid))}">排序</button>
+				<button class="btn btn-primary btn-small J_ajax_submit_btn" type="submit" data-action="{:u('slide/toggle',array('display'=>1,'orgid'=>$orgid))}" data-subcheck="true">显示</button>
+				<button class="btn btn-primary btn-small J_ajax_submit_btn" type="submit" data-action="{:u('slide/toggle',array('hide'=>1,'orgid'=>$orgid))}" data-subcheck="true">隐藏</button>
+				<button class="btn btn-primary btn-small J_ajax_submit_btn" type="submit" data-action="{:U('slide/delete',array('orgid'=>$orgid))}" data-subcheck="true">删除</button>
+			</div>
+			<php> $status=array("1"=>"显示","0"=>"隐藏"); </php>
+
+			<table class="table table-hover table-bordered table-list" >
+				<thead>
+					<tr >
+						<th width="15"><label><input type="checkbox" class="J_check_all" data-direction="x" data-checklist="J_check_x"></label></th>
+						<th width="20">排序</th>
+						<th width="20">ID</th>
+						<th width="100">标题</th>
+						<th width="300">描述</th>
+						<!--th width="100">链接</th-->
+						<th width="30">图片</th>
+						<th width="30">状态</th>
+						<th width="80">操作</th>
+					</tr>
+				</thead>
+				<foreach name="slides" item="vo">
+				
+				<tr>
+					<td><input type="checkbox" class="J_check" data-yid="J_check_y" data-xid="J_check_x" name="ids[]" value="{$vo.slide_id}"></td>
+					<td><input name='listorders[{$vo.slide_id}]' class="input input-order mr5" type='text' size='3' style="width:20px"value='{$vo.listorder}'></td>
+					<td>{$vo.slide_id}</td>
+					<td>{$vo.slide_name}</td>
+					<td>{$slide_content = mb_substr($vo['slide_content'], 0, 100,'utf-8')}</td>
+					<!--td>{$vo.slide_url}</td-->
+					<td>
+						<if condition="!empty($vo['slide_pic'])">
+							<a href="{:sp_get_asset_upload_path($vo['slide_pic'])}" target="_blank">查看</a>
+						</if>
+					</td>
+					<td>{$status[$vo['slide_status']]}</td>
+					<td>
+						<a href="{:U('slide/edit',array('id'=>$vo['slide_id'],'orgid'=>$orgid))}">修改</a>
+						<a href="{:U('slide/delete',array('id'=>$vo['slide_id'],'orgid'=>$orgid))}" class="J_ajax_del">删除</a>
+						<if condition="empty($vo['slide_status']) eq 1">
+							<a href="{:U('slide/cancelban',array('id'=>$vo['slide_id'],'orgid'=>$orgid))}" class="J_ajax_dialog_btn" data-msg="确定显示此幻灯片吗？">显示</a>
+						<else /> 
+							<a href="{:U('slide/ban',array('id'=>$vo['slide_id'],'orgid'=>$orgid))}" class="J_ajax_dialog_btn" data-msg="确定隐藏此幻灯片吗？">隐藏</a>
+						</if>
+					</td>
+				</tr>
+
+				</foreach>
+				<if condition="$vo['slide_id'] neq null">
+				<else />
+				<tr>
+					<td width="300">
+					暂时没有添加风采展示图片
+					</td>
+				</tr>
+				</if>
+
+			</table>
+
+		</form>
+	</div>
+
+<script src="__ROOT__/statics/js/common.js"></script>
+<script type="text/javascript" src="__ROOT__/statics/js/layer/layer.js"></script>
+<script>
+	setCookie('refersh_time', 0);
+	function refersh_window() {
+		var refersh_time = getCookie('refersh_time');
+		if (refersh_time == 1) {
+			window.location.reload();
+		}
+	}
+	setInterval(function() {
+		refersh_window()
+	}, 3000);
+	$(function() {
+		$("#selected_cid").change(function() {
+			$("#cid_form").submit();
+		});
+	});
+$('#previewbtn').on('click', function(){
+   var videoid=document.getElementById('video').value;
+   var path="__ROOT__/data/upload/"+videoid;
+  // if(videoid==null){
+  //   alert('您还未上传视频！');
+  // }
+  layer.open({
+      type: 1,
+      title: false,
+      area: ['700px', '500px'],
+      shade: 0.3,
+      closeBtn: false,
+      shadeClose: true,
+      content: '<video id="media"class="edui-upload-video  vjs-default-skin video-js" controls="" preload="none" width="700" height="500" src="'+path+'" data-setup="{}"></video>'
+  });
+
+});
+</script>
+</body>
+</html>

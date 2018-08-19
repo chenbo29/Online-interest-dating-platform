@@ -1,0 +1,32 @@
+ul,li
+{
+    list-style: none;
+}
+.ybgglist
+{
+    background-color: #fff;
+    padding:5px;
+}
+.ybgglist li
+{
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px dashed #cbcbcb;
+    background: url(../../images/arrow.gif) 10px 12px no-repeat;
+    padding-left: 30px;
+}
+.ybgglist li a
+{
+    text-decoration: none;
+}
+
+.ybgglist li span{
+
+    float: right;
+    font-size: 15px;
+}
+.hui
+{
+    color: #bd0a01;
+    margin-right: 10px;
+}

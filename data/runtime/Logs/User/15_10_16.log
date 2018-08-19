@@ -1,0 +1,1215 @@
+[ 2015-10-16T00:00:23+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001424s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004664s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T00:00:26+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001108s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002375s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T00:00:31+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001126s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002622s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T00:01:21+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.020775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022260s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T00:01:27+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001138s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T00:02:42+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000810s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002169s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003691s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T00:03:02+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001016s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003705s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T00:03:19+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002277s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T00:03:22+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002346s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T00:03:26+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004197s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T00:03:28+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001479s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005167s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T00:18:33+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001267s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004535s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T00:18:35+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login/orgid/3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001165s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003557s ]
+SQL: SHOW COLUMNS FROM `sp_user_org` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `sp_user_org` WHERE `ORG_ID` = 3 AND `user_id` = '2' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T00:21:18+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000821s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002777s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T00:21:21+08:00 ] ::1 /thinkcmfx/index.php/User/St/searchst
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'thinkcmf.sp_plugin_district' doesn't exist
+
+[ 2015-10-16T00:21:50+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001287s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003927s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T00:22:28+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001129s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002421s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T00:22:33+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001181s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006986s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T00:22:41+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000924s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005169s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T00:22:43+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001189s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002141s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004178s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T00:26:45+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001172s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004958s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T00:26:48+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login/orgid/3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001920s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002143s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004826s ]
+SQL: SHOW COLUMNS FROM `sp_user_org` [ RunTime:0.0505s ]
+SQL: SELECT * FROM `sp_user_org` WHERE `ORG_ID` = 3 AND `user_id` = '2' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T00:27:27+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002478s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T00:27:31+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001026s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003572s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T00:27:57+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000766s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001136s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004425s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T00:28:00+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001100s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003784s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T00:29:28+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000836s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003342s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T00:29:30+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003589s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T00:29:49+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000782s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001156s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002543s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T00:29:52+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001546s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002184s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004554s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T00:31:19+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.007101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008391s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T00:33:11+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000982s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001929s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003575s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T00:33:14+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001657s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005459s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T00:33:17+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003852s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006457s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T00:33:24+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006020s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009909s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T00:33:27+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000873s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002990s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T00:36:27+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001082s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003627s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T00:38:45+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001244s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004478s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T00:38:49+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001186s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003498s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T00:39:40+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001024s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003831s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T00:39:53+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001518s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004843s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T00:39:57+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002861s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T00:41:42+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001146s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004357s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T00:41:50+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002620s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T00:43:56+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000759s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003742s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T00:43:58+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001036s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003407s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T00:45:40+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001104s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004020s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T00:45:43+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000921s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002849s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T00:48:11+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001161s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003919s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T00:48:16+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002465s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T00:48:18+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001160s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003502s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T00:51:21+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001155s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003953s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T00:51:24+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001149s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002488s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T00:52:12+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001076s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003773s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T00:52:14+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004604s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T00:52:18+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001227s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003926s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T00:52:26+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000756s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.011733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013206s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T00:53:35+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001258s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004105s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T00:53:38+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001266s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005203s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T00:53:41+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000818s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002980s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T00:55:56+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001367s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005573s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T01:01:37+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001047s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012991s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T01:01:41+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002904s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T01:01:44+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001129s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003825s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T01:01:46+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000818s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003373s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T01:01:51+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001158s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004529s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T01:01:55+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000780s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002624s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T01:02:51+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001507s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008414s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T01:02:55+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001158s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002515s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T01:02:57+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001121s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003791s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T01:04:01+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000966s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004008s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T01:04:08+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001050s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003566s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T01:04:25+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000932s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003141s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T01:04:30+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004616s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007550s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T01:04:41+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000997s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004089s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T01:04:47+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001407s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004349s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T01:04:49+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login/orgid/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000970s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003460s ]
+SQL: SHOW COLUMNS FROM `sp_user_org` [ RunTime:0.0213s ]
+SQL: SELECT * FROM `sp_user_org` WHERE `ORG_ID` = 2 AND `user_id` = '2' LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T01:06:47+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001008s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017656s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T01:06:52+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001150s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003502s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T01:06:57+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001108s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002905s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T01:07:12+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001675s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004272s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T01:08:11+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001056s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003390s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T01:08:15+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000984s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002957s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T01:09:41+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002060s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007246s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T01:09:47+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001744s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004373s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T01:09:51+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002975s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T01:10:05+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000974s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003229s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T01:10:10+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003620s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T01:10:18+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000947s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009048s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T01:10:26+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000731s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002689s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T01:10:28+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000989s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004272s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T12:29:31+08:00 ] ::1 /thinkcmfx/index.php/user/login/dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002412s ]
+SQL: SHOW COLUMNS FROM `sp_users` [ RunTime:0.1114s ]
+SQL: SELECT * FROM `sp_users` WHERE `user_login` = 'yiqiao' LIMIT 1   [ RunTime:0.0356s ]
+SQL: UPDATE `sp_users` SET `last_login_time`='2015-10-16 12:29:31',`last_login_ip`='0.0.0.0' WHERE ( id=2 ) [ RunTime:0.0023s ]
+
+[ 2015-10-16T12:29:35+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000917s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002889s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T12:29:43+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000882s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003163s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T12:30:50+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000846s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003485s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T12:30:57+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003320s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T12:30:59+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002607s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T12:32:53+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000985s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003202s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T12:33:03+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002485s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T12:33:08+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001178s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002529s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T12:35:30+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001443s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003799s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T12:35:34+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002641s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T12:35:39+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009988s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012209s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T12:35:50+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001146s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002407s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T12:35:57+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login/orgid/4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002777s ]
+SQL: SHOW COLUMNS FROM `sp_user_org` [ RunTime:0.1115s ]
+SQL: SELECT * FROM `sp_user_org` WHERE `ORG_ID` = 4 AND `user_id` = '2' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T12:40:11+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001119s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002490s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T12:40:15+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003201s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T12:40:19+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001087s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003412s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T12:40:59+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002319s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T12:41:30+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001129s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002465s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T12:41:49+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000699s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002434s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T12:42:27+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000898s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003936s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T12:42:59+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000987s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003819s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T12:43:00+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login/orgid/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001153s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005073s ]
+SQL: SHOW COLUMNS FROM `sp_user_org` [ RunTime:0.0506s ]
+SQL: SELECT * FROM `sp_user_org` WHERE `ORG_ID` = 2 AND `user_id` = '2' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T12:43:29+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login/orgid/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001043s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002748s ]
+SQL: SHOW COLUMNS FROM `sp_user_org` [ RunTime:0.0304s ]
+SQL: SELECT * FROM `sp_user_org` WHERE `ORG_ID` = 2 AND `user_id` = '2' LIMIT 1   [ RunTime:0.0063s ]
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T12:43:34+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login/orgid/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000731s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003538s ]
+SQL: SHOW COLUMNS FROM `sp_user_org` [ RunTime:0.0187s ]
+SQL: SELECT * FROM `sp_user_org` WHERE `ORG_ID` = 2 AND `user_id` = '2' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T12:43:41+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login/orgid/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000956s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004057s ]
+SQL: SHOW COLUMNS FROM `sp_user_org` [ RunTime:0.0264s ]
+SQL: SELECT * FROM `sp_user_org` WHERE `ORG_ID` = 2 AND `user_id` = '2' LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T12:43:42+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login/orgid/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000924s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003380s ]
+SQL: SHOW COLUMNS FROM `sp_user_org` [ RunTime:0.0221s ]
+SQL: SELECT * FROM `sp_user_org` WHERE `ORG_ID` = 2 AND `user_id` = '2' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T12:44:39+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login/orgid/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002849s ]
+SQL: SHOW COLUMNS FROM `sp_user_org` [ RunTime:0.0263s ]
+SQL: SELECT * FROM `sp_user_org` WHERE `ORG_ID` = 2 AND `user_id` = '2' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T12:46:09+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login/orgid/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001222s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003285s ]
+SQL: SHOW COLUMNS FROM `sp_user_org` [ RunTime:0.0578s ]
+SQL: SELECT * FROM `sp_user_org` WHERE `ORG_ID` = 2 AND `user_id` = '2' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T12:46:17+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login/orgid/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001571s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006098s ]
+SQL: SHOW COLUMNS FROM `sp_user_org` [ RunTime:0.0337s ]
+SQL: SELECT * FROM `sp_user_org` WHERE `ORG_ID` = 2 AND `user_id` = '2' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T12:46:21+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login/orgid/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001265s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002137s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004163s ]
+SQL: SHOW COLUMNS FROM `sp_user_org` [ RunTime:0.0253s ]
+SQL: SELECT * FROM `sp_user_org` WHERE `ORG_ID` = 2 AND `user_id` = '2' LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T12:46:51+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login/orgid/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000836s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004274s ]
+SQL: SHOW COLUMNS FROM `sp_user_org` [ RunTime:0.0164s ]
+SQL: SELECT * FROM `sp_user_org` WHERE `ORG_ID` = 2 AND `user_id` = '2' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T12:46:55+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login/orgid/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000864s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005540s ]
+SQL: SHOW COLUMNS FROM `sp_user_org` [ RunTime:0.0167s ]
+SQL: SELECT * FROM `sp_user_org` WHERE `ORG_ID` = 2 AND `user_id` = '2' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T12:57:05+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002817s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T12:57:06+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login/orgid/3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002836s ]
+SQL: SHOW COLUMNS FROM `sp_user_org` [ RunTime:0.0324s ]
+SQL: SELECT * FROM `sp_user_org` WHERE `ORG_ID` = 3 AND `user_id` = '2' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T12:57:10+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login/orgid/5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000918s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003159s ]
+SQL: SHOW COLUMNS FROM `sp_user_org` [ RunTime:0.0418s ]
+SQL: SELECT * FROM `sp_user_org` WHERE `ORG_ID` = 5 AND `user_id` = '2' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T12:57:15+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login/orgid/5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000794s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003313s ]
+SQL: SHOW COLUMNS FROM `sp_user_org` [ RunTime:0.0175s ]
+SQL: SELECT * FROM `sp_user_org` WHERE `ORG_ID` = 5 AND `user_id` = '2' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T12:57:19+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login/orgid/5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000680s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001134s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002468s ]
+SQL: SHOW COLUMNS FROM `sp_user_org` [ RunTime:0.0389s ]
+SQL: SELECT * FROM `sp_user_org` WHERE `ORG_ID` = 5 AND `user_id` = '2' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T12:59:10+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001559s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005192s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T12:59:37+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000782s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003087s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T12:59:47+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000809s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002815s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T12:59:59+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003125s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T13:00:08+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001134s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003556s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T13:35:31+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001266s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003905s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T13:35:33+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login/orgid/3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000694s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001133s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002451s ]
+SQL: SHOW COLUMNS FROM `sp_user_org` [ RunTime:0.1068s ]
+SQL: SELECT * FROM `sp_user_org` WHERE `ORG_ID` = 3 AND `user_id` = '2' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T13:39:58+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login/orgid/3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000868s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003034s ]
+SQL: SHOW COLUMNS FROM `sp_user_org` [ RunTime:0.0187s ]
+SQL: SELECT * FROM `sp_user_org` WHERE `ORG_ID` = 3 AND `user_id` = '2' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T13:42:03+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login/orgid/3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000762s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002958s ]
+SQL: SHOW COLUMNS FROM `sp_user_org` [ RunTime:0.0176s ]
+SQL: SELECT * FROM `sp_user_org` WHERE `ORG_ID` = 3 AND `user_id` = '2' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T13:43:16+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login/orgid/3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004241s ]
+SQL: SHOW COLUMNS FROM `sp_user_org` [ RunTime:0.0530s ]
+SQL: SELECT * FROM `sp_user_org` WHERE `ORG_ID` = 3 AND `user_id` = '2' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T13:43:39+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002293s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T13:43:42+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001468s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004725s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T13:43:51+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login/orgid/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002382s ]
+SQL: SHOW COLUMNS FROM `sp_user_org` [ RunTime:0.0225s ]
+SQL: SELECT * FROM `sp_user_org` WHERE `ORG_ID` = 2 AND `user_id` = '2' LIMIT 1   [ RunTime:0.0045s ]
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T13:44:36+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login/orgid/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002572s ]
+SQL: SHOW COLUMNS FROM `sp_user_org` [ RunTime:0.0248s ]
+SQL: SELECT * FROM `sp_user_org` WHERE `ORG_ID` = 2 AND `user_id` = '2' LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T13:44:57+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001208s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003702s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T13:48:04+08:00 ] ::1 /thinkcmfx/index.php/user/login/dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002296s ]
+SQL: SHOW COLUMNS FROM `sp_users` [ RunTime:0.0129s ]
+SQL: SELECT * FROM `sp_users` WHERE `user_login` = 'yiqiao' LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `sp_users` SET `last_login_time`='2015-10-16 13:48:04',`last_login_ip`='0.0.0.0' WHERE ( id=2 ) [ RunTime:0.0004s ]
+
+[ 2015-10-16T13:48:05+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002964s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T13:48:26+08:00 ] ::1 /thinkcmfx/index.php/user/login/dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002835s ]
+SQL: SHOW COLUMNS FROM `sp_users` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `sp_users` WHERE `user_login` = 'yiqiao' LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `sp_users` SET `last_login_time`='2015-10-16 13:48:26',`last_login_ip`='0.0.0.0' WHERE ( id=2 ) [ RunTime:0.0003s ]
+
+[ 2015-10-16T13:48:27+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002797s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-10-16T13:48:34+08:00 ] ::1 /thinkcmfx/index.php/user/index/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003155s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009789s ]
+NOTIC: [8] Undefined index: orgid D:\wamp\www\ThinkCMFX\application\User\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\ThinkCMFX\application\Common\Controller\AppframeController.class.php 第 45 行.
+

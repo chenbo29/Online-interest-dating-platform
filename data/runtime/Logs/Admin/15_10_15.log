@@ -1,0 +1,12 @@
+[ 2015-10-15T16:18:20+08:00 ] ::1 /thinkcmfx/index.php/Admin/slide/add_post/orgid/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000948s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003652s ]
+SQL: SHOW COLUMNS FROM `sp_slide` [ RunTime:0.0177s ]
+SQL: SHOW COLUMNS FROM `sp_slide_cat` [ RunTime:0.0161s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\ThinkCMFX\simplewind\Core\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: x D:\wamp\www\ThinkCMFX\simplewind\Core\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y D:\wamp\www\ThinkCMFX\simplewind\Core\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+SQL: INSERT INTO `sp_slide` (`ORG_ID`,`slide_pic`,`slide_cid`,`slide_name`,`slide_content`) VALUES ('2','stppt/2/561f614c397ce.jpg','1','6','') [ RunTime:0.0005s ]
+

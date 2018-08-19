@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>{$name} {$seo_title} {$site_name}</title>
+<meta name="keywords" content="{$seo_keywords}" />
+<meta name="description" content="{$seo_description}">
+<tc_include file="Public:head" />
+ <link href="__TMPL__Public/css/stcss/index.css" rel="stylesheet">
+<style>
+.thumbnail>a>img {
+display: block;
+margin: 0;
+}
+.span3
+{
+margin-left: 20px;
+}
+span{
+    color:#000;
+}
+.caption{
+    margin-top: 17%;
+}
+</style>
+</head>
+<body>
+<tc_include file="Public:nav" />
+<div class="tc-box">
+    <div class="pg-opt pin">
+        <div class="container">
+            <h2>活动公告列表</h2>
+        </div>
+    </div>
+    
+    <div class="container">
+    <foreach name="list" item="v">
+       <div class="span3" >
+                <div class="thumbnail" style="height: 410px;">
+                    <div class="cover-pic">
+                    <a href="{:leuu('article/hdggDetail',array('stid'=>$_GET['stid'],'id'=>$v['id']))}"  target="_blank">
+                        <img style="height:350px"width="270"class="lazy" src="{:sp_get_asset_upload_path($v['picture'])}">
+                    </a>
+                    </div>
+                    <div class="caption">
+                        <h3>
+                            <a style="color:#fff;"href="{:leuu('article/hdggDetail',array('stid'=>$_GET['stid'],'id'=>$v['id']))}"  target="_blank" title="{$v['theme']}">
+                                {$v['theme']|msubstr=0,8,'utf-8',false}
+                            </a>
+                            <br>
+                            <a href="{:U('user/index/index',array('id'=>$v['launcher_id']))}"><small style="color:#fff;">发起人： {$v['nicename']}</small></a>
+                        </h3>
+                        <p style="height:52px;color:#fff;">简介：{$v['content']|msubstr=0,46}</p>
+                        <div class="time">
+                            <span class="icon-time" title="活动时间"></span>
+                           {$v['begin_time']|msubstr=2,14,'utf-8',false}
+                            <span style="float:right;">
+                                <span title="人数上限">
+                               人数上限：</span>{$v['require']} <b>|</b>
+                                <span class="icon-user" title="报名人数"></span>
+                                 {$v['joined']}
+                            </span>
+                        </div>
+                        <div class="apply">
+                            <a href="__ROOT__/index.php/Portal/Index/index/stid/{$_GET['stid']}" target="_blank">
+                                <img class="face" src="{:sp_get_asset_upload_path($v['logo'])}" alt="logo" style="width:27px;height:27px;">
+                                <span title="{$v['name']}">{$v['name']}</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </foreach>
+    </div>
+    <div>{$page}</div>
+    <tc_include file="Public:footer" />
+</div>    
+<!-- JavaScript -->
+<tc_include file="Public:scripts" />
+ <script src="__TMPL__Public/js/imagesloaded.pkgd.min.js"></script>
+    <script src="__TMPL__Public/js/masonry.pkgd.min.js"></script>
+	<script>
+	var $container=$('#container').masonry({
+		  columnWidth: '.grid-sizer',
+		  itemSelector: '.item'
+		});
+	// layout Masonry again after all images have loaded
+	$container.imagesLoaded( function() {
+	  $container.masonry();
+	});
+	</script>
+</body>
+</html>

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>{$site_name}</title>
+<meta name="keywords" content="{$site_seo_keywords}" />
+<meta name="description" content="{$site_seo_description}">
+<meta name="author" content="ThinkCMF">
+<tc_include file="Public:head" />
+
+
+<link href="__ROOT__/statics/diyUpload/css/webuploader.css" rel="stylesheet" type="text/css">
+<link href="__ROOT__/statics/diyUpload/css/diyUpload.css" rel="stylesheet" type="text/css">
+
+
+<style type="text/css">
+#box
+{
+    margin-bottom: 10px;
+    width: 540px;
+    min-height: 270px;
+    background: #DDDDDD;
+}
+.control-group{
+  margin-top: 30px;
+}
+</style>
+</head>
+<body class="body-white" id="top">
+	<tc_include file="Public:nav" />
+
+		<div class="container tc-main">
+                <div class="row">
+                <form class="form-horizontal J_ajaxForm" action="{:u('Organization/updateorguser',array('id'=>$id,'stid'=>$stid))}" method="post">
+                    <div class="span6" >
+	                    <div class="tabs">
+                           <ul class="nav nav-tabs">
+                               <li class="active"><a href="#one" data-toggle="tab"><i class="fa fa-list-alt"></i> 修改资料-这是您在这个组织的个人资料，与您在其他组织的个人资料无关</a></li>
+                           </ul>
+                           <div class="tab-content">
+                               <div class="tab-pane active" id="one">
+
+                                    <div class="control-group">
+                                      <label class="control-label">昵称</label>
+                                      <div class="controls">
+                                        <input type="text" id="nicename" name="nicename"placeholder="点击右侧选框使用基础昵称" value="{$nicename}">
+                                        <input type="hidden" id="basenicename"value="{$user_nicename}">
+                                        <input type="checkbox" title="使用基础昵称"onclick="usebasenicename()">
+                                      </div>
+                                    </div>
+                                    <div class="control-group">
+                                      <label class="control-label">电话</label>
+                                      <div class="controls">
+                                        <input class="J_tel" type="text"style="" id="input-birthday"  name="tel" value="{$tel}"> *
+                                        <div style="margin-top:8px">请您填写手机号码,以便方便的接收组织的活动通知。
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="control-group">
+                                      <label class="control-label" for="input-signature">个性签名</label>
+                                      <div class="controls">
+                                        <textarea id="input-signature" placeholder="个性签名" name="signature"style="margin: 0px; width: 353px; height: 43px;">{$signature}</textarea>
+                                      </div>
+                                    </div>
+                                    <div class="control-group">
+                                      <label class="control-label" for="input-signature">个人介绍</label>
+                                      <div class="controls">
+                                        <textarea id="input-signature" placeholder="个性签名" name="introduction"style="margin: 0px; width: 355px; height: 103px;">{$introduction}</textarea>
+                                      </div>
+                                    </div>
+ 
+                                  
+                               </div>
+                           </div>             
+                       </div>
+                    </div>
+                  <div class="span6">
+                    <div class="control-group">
+                      <h3 style="">照片墙:</h3>
+                      
+                        <label >上传一组您专属的图片，让大家更好的认识你,这些图片会展示在风采展示模块。</label>
+                        <label>注意，您本次上传的图片将会更新之前上传的图片。</label>
+                    </div>
+                    <div id="box">
+                      <div id="upload"></div>
+                     <input type="hidden" name="picture"id="picture"value="{$picture}"/>
+
+                    </div>
+                    <div class="control-group">
+                      <div class="controls">
+                        <button type="submit" class="btn btn-primary J_ajax_submit_btn">更新资料</button>
+                      </div>
+                    </div>
+                  </div>
+                    
+                    <input type="hidden" name="id" id="" value="{$id}"/>
+                    </form>
+              </div>
+
+
+		<tc_include file="Public:footer" />
+
+	</div>
+	<!-- /container -->
+<tc_include file="Public:scripts" />
+<script type="text/javascript" src="__ROOT__/statics/diyUpload/js/webuploader.html5only.min.js"></script>
+<script type="text/javascript" src="__ROOT__/statics/diyUpload/js/diyUpload.js"></script>	
+<script type="text/javascript">
+var allname="";
+var flag=1;
+var path="data/upload/orguser";
+$('#upload').diyUpload({
+  // url:'__ROOT__/application/Common/Common/fileupload.php',
+  url:"{:U('Orguseruploadpic/index')}",
+  success:function( data ){
+    if(flag==1){
+      allname=data['_raw'];
+      flag=0;
+    }else{
+      allname=allname+'+'+data['_raw'];
+    }
+    document.getElementById('picture').value=allname;
+
+    console.info( allname );
+  },
+  error:function( err ) {
+    console.info( err );  
+  }
+});
+var fg=1;
+
+var nicename=document.getElementById('nicename').value;
+function usebasenicename(){
+  var basenicename=document.getElementById('basenicename').value;
+  
+  if(fg==1){
+    document.getElementById('nicename').value=basenicename;
+    fg=0;
+  }else{
+    document.getElementById('nicename').value=nicename;
+    fg=1;
+  }
+}
+</script>
+</body>
+</html>

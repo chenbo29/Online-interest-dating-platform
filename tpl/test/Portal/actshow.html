@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{$name} {$seo_title} {$site_name}</title>
+    <meta name="keywords" content="{$seo_keywords}" />
+    <meta name="description" content="{$seo_description}">
+    <tc_include file="Public:head" />
+    <link href="__TMPL__Portal/css/bootstrap.min.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+    <script src="__TMPL__Portal/js/html5shiv.js"></script>
+    <script src="__TMPL__Portal/js/respond.min.js"></script>
+    <![endif]-->
+
+    <style type="text/css">
+html {
+    background-color: #CCC
+}
+body {
+    width: 80.9%;
+    background-color: #FFF;
+    margin: 0 auto
+}
+.wrap {
+    margin-top: 10px;
+}
+/*.col-md-8{border-left:2px solid #600;}*/
+/*.top {
+    border-left: 2px solid #0CC;
+}*/
+.main-img {
+    margin: 0 auto;
+}
+.main-list {
+    margin-top: 20px
+}
+.row-fluid {
+    margin-top: 10px
+}
+.main {
+    margin-top: 20px;
+    border-top: 3px solid #0CC;
+}
+.main li a {
+    background-color: #F60;
+    color: #fff;
+}
+.carousel-indicators
+{
+    margin-left:-5%;
+}
+.item 
+{
+    width: 1440px;
+    height: 1440px;
+    text-align:center;
+}
+.item img
+{
+    margin:0 auto;
+    line-height: 1440px;
+}
+.tab-content {
+     overflow: hidden; 
+}
+</style>
+</head>
+
+<body>
+    <!-- 顶部导航 -->
+    <tc_include file="Public:nav" />
+    <!--活动展示主体开始-->
+    <div class="wrap">
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="col-md-12">
+                    <ul class="unstyled">
+                        <li>
+                            <h2>
+                                <div class=" text-success glyphicon glyphicon-flag">&nbsp;活动主题——{$article['theme']}</div>
+                            </h2>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row-fluid">
+                <div class="col-md-12 top">
+                    <div class="main-list">
+                        <ul class="unstyled list-inline">
+                            <li>
+                                <div class=" text-primary glyphicon glyphicon-star">
+                                    &nbsp;活动类型：&nbsp;
+                                    <small>{$article['type']}</small>
+                                </div>
+                            </li>
+                            <li>&nbsp</li>
+                            <li>
+                                <div class=" text-primary glyphicon glyphicon-time">
+                                    &nbsp;活动时间：&nbsp;
+                                    <small>
+                                        {$article['begin_time']|strtotime|date="Y.m.d",###}~{$article['over_time']|strtotime|date="Y.m.d",###}
+                                    </small>
+                                </div>
+                            </li>
+                            <li>&nbsp</li>
+                            <li>
+                                <div class=" text-primary glyphicon glyphicon-map-marker">
+                                    &nbsp;活动地点：
+                                    <small>{$article['addr']}</small>
+                                </div>
+                            </li>
+                            <li>&nbsp</li>
+                            <li>
+                                <div class=" text-primary glyphicon glyphicon-user">
+                                    &nbsp;参与人数：
+                                    <small>{$article['people']}</small>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row-fluid">
+                <div class="col-md-12">
+                    <div class="main">
+                        <div class="tabbable tabs-below" id="tabs">
+                            <ul class="nav nav-tabs">
+                                <li class="active">
+                                    <a href="#panel-1" data-toggle="tab">
+                                        <div class="glyphicon glyphicon-list-alt">活动图片</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#panel-2" data-toggle="tab">
+                                        <div class="glyphicon glyphicon-picture">内容介绍</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#panel-3" data-toggle="tab">
+                                        <div class="glyphicon glyphicon-facetime-video">活动视频</div>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="tab-content">
+
+                                <div class="tab-pane active" id="panel-1">
+                                        <div style="height:20px;"></div>
+                                    <div id="ad-carousel" class="carousel slide" data-ride="carousel">
+                                        <ol class="carousel-indicators">
+                                            <li data-target="#ad-carousel" data-slide-to="0" class="active"></li>
+                                            <li data-target="#ad-carousel" data-slide-to="1"></li>
+                                            <li data-target="#ad-carousel" data-slide-to="2"></li>
+                                            <li data-target="#ad-carousel" data-slide-to="3"></li>
+                                            <li data-target="#ad-carousel" data-slide-to="4"></li>
+                                        </ol>
+                                        <div class="carousel-inner">
+                                            <?php 
+                                                if(count($picSrc)==0){                                              
+                                             ?>
+
+                                             <div class="item">
+                                                 <p>没有照片！</p>
+                                             </div>
+                                            <?php 
+                                                }
+                                            else{
+                                             ?>
+                                            <div class="item active">
+                                                <img src="__ROOT__/data/upload/activityshow/{$_GET['stid']}/{$picSrc[0]}">
+                                            </div>
+                                           <?php 
+
+                                            for ($i=1; $i < count($picSrc); $i++) { 
+                                                
+                                            ?>
+                                            <div class="item">
+                                             <!-- <img src="{$picSrc[$i]}"> -->
+                                              <img src="__ROOT__/data/upload/activityshow/{$_GET['stid']}/{$picSrc[$i]}">
+                                          </div>
+                                          <?php 
+                                            }
+                                            }
+                                           ?>
+                                          
+                    </div>
+                    <a class="left carousel-control" href="#ad-carousel" data-slide="prev">
+                        <span
+            class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+                    <a class="right carousel-control" href="#ad-carousel" data-slide="next">
+                        <span
+            class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="tab-pane " id="panel-2">
+               <div style="height:20px;"></div>
+                <p> 
+                  {$article['content']}
+                </p>
+            </div>
+
+            <div class="tab-pane" id="panel-3">
+               <div style="height:20px;"></div>
+                <div class="video">
+                   <video src="{$article['video']}"></video>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<!--活动展示主体结束-->
+<!-- 评论开始 -->
+<div class="container-fluid">{:Comments("activity_show",$article['id'])}</div>
+<!-- 评论结束 -->
+<tc_include file="Public:footer" />
+
+<!-- JavaScript -->
+<tc_include file="Public:scripts" />
+<script src="__TMPL__Portal/js/jquery-1.11.1.min.js"></script>
+<script src="__TMPL__Portal/js/bootstrap.min.js"></script>
+<script>
+    $(function () {
+        $('#ad-carousel').carousel();
+        $('#menu-nav .navbar-collapse a').click(function (e) {
+            var href = $(this).attr('href');
+            var tabId = $(this).attr('data-tab');
+            if ('#' !== href) {
+                e.preventDefault();
+                $(document).scrollTop($(href).offset().top - 70);
+                if (tabId) {
+                    $('#feature-tab a[href=#' + tabId + ']').tab('show');
+                }
+            }
+        });
+    });
+
+</script>
+<script type="text/javascript" src="http://player.youku.com/jsapi">
+player = new YKU.Player('youkuplayer',{
+styleid: '0',
+client_id: '4998e5a698ba0b01',
+vid: 'XMTMyOTEzODkwOA'
+});
+</script>
+<!---->
+
+</body>
+</html>

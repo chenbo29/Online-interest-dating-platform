@@ -1,0 +1,40 @@
+<?php
+return array (
+  'app' => 'Organization',
+  'model' => 'ActivityAdmin',
+  'action' => 'default',
+  'data' => '',
+  'type' => '1',
+  'status' => '1',
+  'name' => '主题活动',
+  'icon' => 'coffee',
+  'remark' => '',
+  'listorder' => '3',
+  'children' => 
+  array (
+    array (
+      'app' => 'Organization',
+      'model' => 'ActivityAdmin',
+      'action' => 'currentactivity',
+      'data' => '',
+      'type' => '1',
+      'status' => '1',
+      'name' => '当前活动',
+      'icon' => '',
+      'remark' => '',
+      'listorder' => '0',
+    ),
+    array (
+      'app' => 'Organization',
+      'model' => 'ActivityAdmin',
+      'action' => 'pastactivity',
+      'data' => '',
+      'type' => '1',
+      'status' => '1',
+      'name' => '往期活动',
+      'icon' => '',
+      'remark' => '',
+      'listorder' => '0',
+    ),
+  ),
+);
